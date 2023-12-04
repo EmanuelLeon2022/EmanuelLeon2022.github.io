@@ -26,3 +26,7 @@ code {
   display: flex;
   justify-content: space-evenly;
 }
+.feet{
+  display: flex;
+  justify-content: space-evenly ;
+}

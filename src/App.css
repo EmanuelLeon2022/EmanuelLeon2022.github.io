@@ -33,14 +33,19 @@ a{
 .meme{
   background-color: #ff6600;
   color: black;
+  justify-content: space-evenly;
 }
 .drop{
   background-color: #0055ff;
+  display: flex;
 }
 .side{
+  background-color: #0055ff;
   display: flex;
-  justify-content: right;
 }
 .images{
   height: 150px;
+}
+.feeter{
+  background-color: #0055ff;
 }
