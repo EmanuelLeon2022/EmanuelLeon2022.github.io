@@ -1,198 +1,37 @@
 .App {
   text-align: center;
 }
+.disp{
+  background-color: rgb(9, 97, 46);
+}
 .header{
   display: flex;
   flex-direction: column;
 }
-.nav1 {
-  background-color: #7bb5cb;
-  display: flex;
-  justify-content: center;
-
+.main{
+  background-color: rgb(117, 115, 115);
 }
-
-.nav1 p {
-  font-size: 12px;
-  font-weight: bold;
+.title{
+  color: red;
 }
-
-.nav2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  
-}
-
-.nav3 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  border-top: solid black 1px;
-  border-bottom: solid black 1px;
-  
-}
-
-.nav3 p {
-  font-size: 13px;
-  font-weight: bold;
-}
-
-
-.sale1{
-  background-image: url('https://www.honest.com/dw/image/v2/BDBW_PRD/on/demandware.static/-/Library-Sites-HC-content/default/dw1863d39a/2023/homepage/full-width/1023_HolidayBuildYourOwnGift_HDC_Hero_Desktop_NoCopy.jpg?sw=1440');
-  background-size: 105%;
-}
-
-.sale1Buttons{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-.getStarted{
-  background-color: black;
-  padding: 1px 20px;
-}
-
-.getStarted h4{
-  color: aliceblue;
-}
-
-.shopGifts{
-  border: solid black;
-  padding: 1px 20px;
-  margin-left: 15px;
-}
-
-.sale1Texts{
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 140px;
-}
-
-.shopNow{
-  background-color: black;
-  padding: 10px 40px;
-  margin: 15px;
-  color: aliceblue;
-}
-
-.shopNow:hover{
-  background-color: rgb(255, 255, 255);
-  padding: 10px 40px;
-  margin: 15px;
-  color: rgb(0, 0, 0);
-}
-
-
-.holidayGifts{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 14px;
-  margin-left: 120px;
-  margin-right: 120px;
-}
-
-.bestSellers{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin-left: 100px;
-}
-
-.bestSellIndiv{
-  position: relative;
-  /* background-color: aliceblue; */
-
-}
-
-.bestSellImg{
-  width: 280px;
-  z-index: 0;
-}
-
-.bestSellp{
-  background-color: rgb(255, 215, 199);
-  padding-left: 15px;
-  padding-right: 15px;
-  font-weight: 500;
-  position: absolute;
-  top: 8px;
-  left: 16px;
-  z-index: 1;
-}
-
-.babyAd{
-  background-color: #e3d6bd;
-  display: flex;
-  align-items: center;
-}
-
-
-.babyImg{
-  position: relative;
-  z-index: 0;
-  
-}
-
-.babyAdInfo{
-  z-index: 1;
-  position: absolute;
-  left: 80%;
-  transform: translateY(100px);
-  transform: translateX(-200px);
-  font-size: 20px;
-}
-
-.yourFavesBtns{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  margin-bottom: 90px;
-}
-
-
-.faveBtn{
-  background-color: #7bb5cb;
-  padding: 2px 55px;
-}
-
-.babyAd2{
-  background: conic-gradient(#7bb5cb 0deg 180deg, #e3d6bd 180deg 360deg);
-  display: flex;
-  align-items: center;
-}
-
-
-.babyImg2{
-  position: relative;
-  z-index: 0;
-  
-}
-
-.babyAdInfo2{
-  z-index: 1;
-  position: absolute;
-  left: 80%;
-  transform: translateY(100px);
-  transform: translateX(-200px);
+p{
   color: white;
-  font-size: 24px;
 }
-
-.footer{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  border-top: solid black 1px;
+a{
+  color: white;
 }
-
-.logo{
-  width: 10%;
-  height: 10%;
+.zelda{
+  background-color: black;
+  color: white;
+}
+.meme{
+  background-color: #ff6600;
+  color: black;
+}
+.drop{
+  background-color: #0055ff;
+}
+.side{
   display: flex;
-  padding: 15px;
+  justify-content: right;
 }
