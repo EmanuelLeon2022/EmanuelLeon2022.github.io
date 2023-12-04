@@ -4,6 +4,12 @@
 .disp{
   background-color: rgb(9, 97, 46);
 }
+.direct{
+  background-color: black;
+}
+.pain{
+  background-color: #ff6600;
+}
 .header{
   display: flex;
   flex-direction: column;
@@ -34,4 +40,7 @@ a{
 .side{
   display: flex;
   justify-content: right;
+}
+.images{
+  height: 150px;
 }
