@@ -2,6 +2,9 @@
   .App {
     text-align: center;
   }
+  p:hover{
+    text-shadow: red -3px 0, cyan 3px 0;
+  }
   .disp{
     background-color: rgb(9, 97, 46);
   }
@@ -30,6 +33,12 @@
     background-repeat: repeat-y;
     color: white;
   }
+  .dir{
+    background-color: black;
+  }
+  .pain{
+    font-family: "Space Mono", monospace;
+  }
   .meme{
     background-color: #ff6600;
     color: black;
@@ -43,17 +52,23 @@
     background-color: #0055ff;
     display: flex;
   }
+  .nice{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .image1{
     height: 250px;
+    width: 500px;
   }
   .image2{
-    height: 250px;
+    rotate: 270deg;
+    width: 250px;
+    height: 500px;
   }
   .image3{
-    height: 250px;
   }
   .image4{
-    height: 250px;
   }
   .feeter{
     background-color: #0055ff;
