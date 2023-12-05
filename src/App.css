@@ -1,4 +1,75 @@
-.App {
+@media screen and (max-width: 1880px){
+  .App {
+    text-align: center;
+  }
+  .disp{
+    background-color: rgb(9, 97, 46);
+  }
+  .direct{
+    background-color: black;
+  }
+  .header{
+    display: flex;
+    flex-direction: column;
+  }
+  .main{
+    background-color: rgb(117, 115, 115);
+  }
+  .title{
+    color: red;
+  }
+  p{
+    color: white;
+  }
+  a{
+    color: white;
+  }
+  .zelda{
+    background-color: black;
+    background-image: url(https://zelda.nintendo.com/assets/img/news/link-hero.png);
+    background-repeat: repeat-y;
+    color: white;
+  }
+  .meme{
+    background-color: #ff6600;
+    color: black;
+    justify-content: space-evenly;
+  }
+  .drop{
+    background-color: #0055ff;
+    display: flex;
+  }
+  .side{
+    background-color: #0055ff;
+    display: flex;
+  }
+  .image1{
+    height: 250px;
+  }
+  .image2{
+    height: 250px;
+  }
+  .image3{
+    height: 250px;
+  }
+  .image4{
+    height: 250px;
+  }
+  .feeter{
+    background-color: #0055ff;
+  }
+}
+@media screen and (max-width: 990px){
+  .zelda{
+    background-color: red;
+  }
+}
+@media screen and (max-width: 600px){
+  .zelda{
+    background-color: #0055ff;
+  }
+}
+/* .App {
   text-align: center;
 }
 .disp{
@@ -48,4 +119,4 @@ a{
 }
 .feeter{
   background-color: #0055ff;
-}
+} */
