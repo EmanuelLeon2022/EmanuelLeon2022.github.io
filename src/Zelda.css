@@ -49,36 +49,11 @@
       }
 }
 @media screen and (max-width: 990px){
-    .App {
-      text-align: center;
-    }
-    /* p:hover{
-      text-shadow: red -3px 0, cyan 3px 0;
-    } */
     .disp{
       background-color: rgb(9, 97, 46);
     }
-    .direct{
-      background-color: black;
-    }
-    .header{
-      display: flex;
-      flex-direction: column;
-    }
-    .main{
-      background-color: rgb(117, 115, 115);
-    }
-    .title{
-      color: red;
-    }
-    p{
-      color: white;
-    }
-    a{
-      color: white;
-    }
     .zelda{
-      background-color: red;
+      background-color: black;
       background-repeat: no-repeat; 
     }
     .dir{
@@ -92,9 +67,44 @@
       justify-content: space-evenly;
     }
     .Form{
-      height: 50vh;
+      height: 60vh;
     }
-    .feeter{
-      background-color: #0055ff;
+    .disp{
+      background-color: rgb(9, 44, 97);
+      height: 80vh;
+    }
+    .desc{
+      display: flex;
+      align-items: center;
+      height: 60vh;
+    }
+    .find{
+      height: 500px;
+      width: 200px;
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      position: absolute;
+      transform: translate(3vh, 20vh);
+    }
+    .cat{
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      position: absolute;
+      transform: translate(3vh, -22vh);
+    }
+    .looks{
+      border-radius: 10px;
+      position: absolute;
+      transform: translate(50vh, -8vh);
+      border-radius: 10px;
+    }
+    .where{
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      position: relative;
+      transform: translate(50vh,20vh);
     }
   }

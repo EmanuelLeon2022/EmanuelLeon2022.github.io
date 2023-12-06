@@ -114,11 +114,115 @@
     flex-direction: column;
     text-align: right;
   }
-  /* .lego{
-
-  } */
-  .desc{
+}
+@media screen and (max-width: 1880px){
+  .App {
+    text-align: center;
+  }
+  .broken:hover{
+    text-shadow: red -3px 0, cyan 3px 0;
+  }
+  a:hover{
+    text-shadow: red -3px 0, cyan 3px 0;
+  }
+  .direct{
+    background-color: black;
+  }
+  .header{
     display: flex;
+    flex-direction: column;
+  }
+  .main{
+    background-color: rgb(0, 0, 0);
+  }
+  .title{
+    color: red;
+  }
+  p{
+    color: white;
+  }
+  a{
+    color: white;
+  }
+  .dir{
+    position: fixed;
+    background-color: black;
+    height: 7vh;
+    font-size: medium;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .pain{
+    font-family: "Space Mono", monospace;
+  }
+  .dojo{
+    color: blue;
+  }
+  .projx{
+    display: flex;
+    justify-content: baseline;
+    flex-direction: column;
+  }
+  .nice{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .image1{
+    height: 250px;
+    width: 480px;
+    border-radius: 10px;
+  }
+  .image2{
+    rotate: 270deg;
+    width: 250px;
+    height: 500px;
+    border-radius: 10px;
+  }
+  .image3{
+    height: 250px;
+    border-radius: 10px;
+  }
+  .manny{
+    font-family: 'Poppins', sans-serif;
+    color: bisque;
+  }
+  .feeter{
+    background-color: #0055ff;
+  }
+  .rasp{
+    width: 90%;
+    border: solid white 3px;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(https://i.pinimg.com/originals/88/15/63/881563d6444b370fa4ceea0c3183bb4c.gif);
+  }
+  .rasp, h3{
+    color: white;
+    letter-spacing: 100;
+  }
+  .snail{
+    width: 90%;
+    border: solid red 3px;
+    align-items: center;
+    background-image: url(https://cdnb.artstation.com/p/assets/images/images/024/538/827/original/pixel-jeff-clipa-s.gif);
+  }
+  .web{
+    width: 90%;
+    border: solid blue 3px;
+    background-image: url(https://i.pinimg.com/originals/8e/14/55/8e145599d4847e339828787162952035.gif);
+  }
+  .open{
+    width: 75vh;
+    height: 50vh;
+    position: relative;
+    transform: translate(120vh, 5vh);
+    display: flex;
+    flex-direction: column;
+    text-align: right;
   }
 }
 @media screen and (max-width: 990px){
