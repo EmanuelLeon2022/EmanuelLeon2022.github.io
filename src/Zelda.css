@@ -5,7 +5,7 @@
         background-repeat: no-repeat;
         color: white;
         height: 200vh;
-        width: 220vh;
+        width: 225vh;
       }
       .Form{
         height: 50vh;
@@ -70,6 +70,7 @@
       background-color: black;
       background-repeat: no-repeat;
       height: 240vh;
+      width: 165vh;
     }
     .dir{
       position: fixed;
@@ -95,7 +96,6 @@
     }
     .find{
       height: 500px;
-      width: 200px;
       display: flex;
       flex-direction: column;
       text-align: left;
