@@ -5,6 +5,7 @@
         background-repeat: no-repeat;
         color: white;
         height: 200vh;
+        width: 220vh;
       }
       .Form{
         height: 50vh;
@@ -47,14 +48,28 @@
         position: relative;
         transform: translate(70vh,15vh);
       }
+      .open{
+        width: 75vh;
+        height: 50vh;
+        position: relative;
+        transform: translate(130vh, 5vh);
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+      }
 }
 @media screen and (max-width: 990px){
     .disp{
       background-color: rgb(9, 97, 46);
     }
+    p{
+      color: white;
+      text-shadow: green -1px 0;
+    }
     .zelda{
       background-color: black;
-      background-repeat: no-repeat; 
+      background-repeat: no-repeat;
+      height: 240vh;
     }
     .dir{
       position: fixed;
@@ -71,12 +86,12 @@
     }
     .disp{
       background-color: rgb(9, 44, 97);
-      height: 80vh;
+      height: 100vh;
     }
     .desc{
       display: flex;
       align-items: center;
-      height: 60vh;
+      height: 80vh;
     }
     .find{
       height: 500px;
@@ -85,19 +100,18 @@
       flex-direction: column;
       text-align: left;
       position: absolute;
-      transform: translate(3vh, 20vh);
+      transform: translate(5vh, 25vh);
     }
     .cat{
       display: flex;
       flex-direction: column;
       text-align: left;
       position: absolute;
-      transform: translate(3vh, -22vh);
+      transform: translate(5vh, -32vh);
     }
     .looks{
-      border-radius: 10px;
       position: absolute;
-      transform: translate(50vh, -8vh);
+      transform: translate(60vh, 5vh);
       border-radius: 10px;
     }
     .where{
@@ -105,6 +119,83 @@
       flex-direction: column;
       text-align: left;
       position: relative;
-      transform: translate(50vh,20vh);
+      transform: translate(66vh,-32.5vh);
+    }
+    .open{
+      width: 75vh;
+      height: 50vh;
+      position: relative;
+      transform: translate(3.5vh, 5vh);
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+    }
+  }
+  @media screen and (max-width: 600px){
+    .zelda{
+      background-color: black;
+      background-repeat: no-repeat;
+      height: 310vh;
+      width: 100vh;
+    }
+     p{
+      color: white;
+      text-shadow: green -1.5px 0;
+    }
+    .Form{
+      height: 60vh;
+      width: 80vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .open{
+      width: 75vh;
+      height: 50vh;
+      position: relative;
+      transform: translate(5vh, 5vh);
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+    .disp{
+      background-color: rgb(97, 56, 9);
+      height: 170vh;
+      width: 100vh;
+    }
+    .desc{
+      display: flex;
+      align-items: center;
+      height: 80vh;
+    }
+    .find{
+      height: 500px;
+      width: 200px;
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      position: absolute;
+      transform: translate(5vh, 90vh);
+    }
+    .cat{
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      position: absolute;
+      transform: translate(5vh, -30vh);
+    }
+    .looks{
+      border-radius: 10px;
+      padding: 10px;
+      position: absolute;
+      transform: translate(3vh, 5vh);
+      border-radius: 10px;
+    }
+    .where{
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      position: relative;
+      transform: translate(5vh,38vh);
     }
   }

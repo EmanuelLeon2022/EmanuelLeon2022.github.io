@@ -1,6 +1,7 @@
 import '../App.css'
 import Directory from './Directory'
 import Footer from './Footer'
+import '../stuff/snails.png'
 
 function Main() {
   return (
@@ -13,7 +14,7 @@ function Main() {
         <h1 className='manny'>Home</h1>
         <p>Hello visitors and welcome to my website. As you can see there are still a lot of things missing here.</p>
         <p>It is still a work in progress, but feel free to browse around. On this page is where you will find most of my most recent projects</p>
-        <p>I have built a Raspberry Pi computer arcade machine, </p>
+        <p>I have built a Raspberry Pi computer arcade machine, a snail racing game, and this website which you are currently visiting.</p>
       </div>
       <div className='rasp'>
         <div className='nice'>
@@ -25,7 +26,7 @@ function Main() {
       <div className='snail'>
         <div className='race'>
           <h3>Snail Race </h3>
-          <img className='image3' src="https://lh3.googleusercontent.com/pw/ADCreHfjYYIORDpwmSNzJMXfjAP3jOnjG8Mk5H59CmbBDuiM4L0tDAHjEFQP6R6-lJN_cYelgEbCP2XbovQbLoVyAsgtBq3J8kyer_96DCgN4g6GYE0GwKOBq5vy0O8Px2LHsQLU-cregIz4J_u6ej7oCnR7lvDzz0IaLIdhgEOisk-Uq3NneDakFz6wcYsMminvlRwkPIKn3xm6P5oVm2MOfpJ1w2n9Nm2KkDwI71Itu6t48AhS6YmQAkUyppgsoaZZAuiKsGnnCIL0i6w6GhDUUY6NkO3JGkgmPyp4VaSrj4JNE2wNhnZBiU1YMxnyYlre5mgoGbvjmq61HtyfWfQWKrbSaX5xYVesSII9747aRF8xZ4qd_RB37IchNPXAuO1atbXIFDBvmIls4L1-EbeYi8T35kcXhkpcQwUYZT1K8CjLDEpf2_695NvFfbhzeMfjTL5BwVuE276bGa_Z9MN0Yfe-D7eilTyLUi62HLrUpQ-Knv0ADKqa4RjuB1IgP3m9tryn7ToyJhEduG_VduIhbiORdSfKoFNM5TKD5ix8RyJLElhBZdv8jDtd5_v0W8MEZVZjiLlxhMpc0LPwwyWzE-6QZK8EqK8vJU-q9SC_Zjb8QjI_NvY9DNOVrrHdez2_8yckBehWa7b1WCjK39Ojk3a51RB9GcuBBQV3x9FUadtfdi8lgyvGmEkYlMrQcQCh9so30WyGzfVbr0AT-NZzW_rOpOVV7vkcisL7VDnEPzR8FvH-afI3xI-pV9mk2JLoXOP33SYkOVrow22uXo9WYJ8o4tXfST0IxauKD9sIKJk5uJetsidwuT5-Xsktc4xSjma6D8daAOD3SZtUEhhxwpHd-m_6-MsJp_PsDkO1i0JwVXICv07fbvfaxLeWz44wBg=w1257-h617-s-no-gm?authuser=" alt="Snail race game in browser" />
+          <img className='image3' src="../stuff/snails.png" alt="Snail race game in browser" />
         </div>
       </div>
       <div className='web'>
@@ -35,7 +36,7 @@ function Main() {
         </div>
       </div>
       <div className='projx'>
-        <h2>Project List</h2>
+        <h2 style={{color: 'white'}}>Project List</h2>
         <a href='https://www.instructables.com/The-Box-of-Nostalgia-Semi-Portable-Retro-Gaming-Co/' target="_blank"><p className='dojo'>Retropie</p></a>
         <a href='https://github.com/EmanuelLeon2022/Snail-racers/tree/main' target="_blank"><p className='dojo'
         >Snail Racers</p></a>
