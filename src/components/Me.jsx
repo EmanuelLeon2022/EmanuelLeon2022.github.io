@@ -6,10 +6,11 @@ function Me() {
   return (
     <div className='meme'>
         <Directory/>
-        <h1>GET OUT OF HERE</h1>
+        <h1>&nbsp;</h1>
+        <h1 className='nam'>Emanuel Leon-Vargas</h1>
         <div className='drop'>
         <div className='side'>
-                <img src="https://64.media.tumblr.com/b96114a5900dbb933ae77ddf05e31248/77aa7995bc51d42e-1d/s250x400/2299db72186be6ac7d7dcd83ca8f0893aef50821.gif" alt="Spinning Fox" />
+          <img src="" alt="" />
         </div>
         <div>
             <p>* Leones Construction - Construction Worker  - Pittsburgh, PA 06/2023 - 08/2023</p>

@@ -2,13 +2,16 @@ function Display(props) {
   const loaded = () => {
     return (
         <div className="desc">
+            <div className="cat">
             <h1>Name: {props.currentName.data.name}</h1>
             <h1>Category: {props.currentName.data.category}</h1>
+            </div>
+            <div className="find">
             <h1>Description:</h1>
             <p>{props.currentName.data.description}</p>
-            <div className="handsome">
-                <h1>Display:</h1>
-                <img src={props.currentName.data.image}/>
+            </div>
+            <div className="looks">
+                <img src={props.currentName.data.image} alt={props.currentName.data.name}/>
             </div>
         </div>
     )

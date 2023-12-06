@@ -1,4 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
 @media screen and (max-width: 1880px){
+  .App {
+    text-align: center;
+  }
+  p:hover{
+    text-shadow: red -3px 0, cyan 3px 0;
+  }
+  .disp{
+    background-color: rgb(9, 97, 46);
+    height: 50vh;
+  }
+  .direct{
+    background-color: black;
+  }
+  .header{
+    display: flex;
+    flex-direction: column;
+  }
+  .main{
+    background-color: rgb(117, 115, 115);
+  }
+  .title{
+    color: red;
+  }
+  p{
+    color: white;
+  }
+  a{
+    color: white;
+  }
+  .zelda{
+    background-color: black;
+    background-image: url(https://zelda.nintendo.com/assets/img/news/link-hero.png);
+    background-repeat: no-repeat;
+    color: white;
+    height: 180vh;
+  }
+  .dir{
+    position: fixed;
+    background-color: black;
+    height: 7vh;
+    font-size: medium;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .Form{
+    height: 50vh;
+  }
+  .desc{
+    display: flex;
+    align-items: center;
+    height: 60vh;
+  }
+  .find{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    position: absolute;
+    transform: translate(60vh, 4vh);
+  }
+  .cat{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    position: absolute;
+    transform: translate(5vh, -23vh);
+  }
+  .looks{
+    position: absolute;
+    transform: translate(5vh, 2vh);
+    border-radius: 10px;
+  }
+  .pain{
+    font-family: "Space Mono", monospace;
+  }
+  .dojo{
+    color: blue;
+  }
+  .projx{
+    display: flex;
+    justify-content: baseline;
+    flex-direction: column;
+  }
+  .meme{
+    background-color: #ff6600;
+    color: black;
+    justify-content: space-evenly;
+  }
+  .drop{
+    background-color: #0055ff;
+    display: flex;
+  }
+  .side{
+    background-color: #0055ff;
+    display: flex;
+  }
+  .nice{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .image1{
+    height: 250px;
+    width: 480px;
+    border-radius: 10px;
+  }
+  .image2{
+    rotate: 270deg;
+    width: 250px;
+    height: 500px;
+    border-radius: 10px;
+  }
+  .image3{
+    height: 250px;
+    border-radius: 10px;
+  }
+  .manny{
+    font-family: 'Poppins', sans-serif;
+    color: bisque;
+  }
+  .feeter{
+    background-color: #0055ff;
+  }
+  .rasp{
+    width: 90%;
+    border: solid white 3px;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(https://i.pinimg.com/originals/88/15/63/881563d6444b370fa4ceea0c3183bb4c.gif);
+  }
+  .rasp, h3{
+    color: white;
+    letter-spacing: 100;
+  }
+  .snail{
+    width: 90%;
+    border: solid red 3px;
+    align-items: center;
+    background-image: url(https://cdnb.artstation.com/p/assets/images/images/024/538/827/original/pixel-jeff-clipa-s.gif);
+  }
+  .web{
+    width: 90%;
+    border: solid blue 3px;
+    background-image: url(https://i.pinimg.com/originals/8e/14/55/8e145599d4847e339828787162952035.gif);
+  }
+  .open{
+    width: 75vh;
+    height: 50vh;
+    position: relative;
+    transform: translate(120vh, 5vh);
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+  }
+  /* .lego{
+
+  } */
+  .desc{
+    display: flex;
+  }
+}
+@media screen and (max-width: 990px){
   .App {
     text-align: center;
   }
@@ -28,13 +201,21 @@
     color: white;
   }
   .zelda{
-    background-color: black;
-    background-image: url(https://zelda.nintendo.com/assets/img/news/link-hero.png);
-    background-repeat: repeat-y;
-    color: white;
+    background-color: red;
+    background-repeat: no-repeat; 
   }
   .dir{
+    position: fixed;
     background-color: black;
+    height: 8vh;
+    font-size: medium;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .Form{
+    height: 50vh;
   }
   .pain{
     font-family: "Space Mono", monospace;
@@ -42,11 +223,12 @@
   .meme{
     background-color: #ff6600;
     color: black;
-    justify-content: space-evenly;
   }
   .drop{
-    background-color: #0055ff;
+    background-color: black;
+    width: 50vh;
     display: flex;
+    flex-direction: column;
   }
   .side{
     background-color: #0055ff;
@@ -66,72 +248,36 @@
     width: 250px;
     height: 500px;
   }
-  .image3{
-  }
-  .image4{
+  .manny{
+    font-family: 'Poppins', sans-serif;
+    color: bisque;
   }
   .feeter{
     background-color: #0055ff;
   }
 }
-@media screen and (max-width: 990px){
-  .zelda{
-    background-color: red;
-  }
-}
 @media screen and (max-width: 600px){
   .zelda{
     background-color: #0055ff;
+    background-repeat: no-repeat;
+  }
+  .meme{
+    background-image: url(https://art.pixilart.com/b48a43ad690ea4c.gif);
+    background-repeat: repeat-x;
+  }
+  .meme, p{
+    color: green;
+  }
+  .nam{
+    color: white;
+  }
+  .side{
+    display: flex;
+    justify-content: center;
+  }
+  .drop{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
   }
 }
-/* .App {
-  text-align: center;
-}
-.disp{
-  background-color: rgb(9, 97, 46);
-}
-.direct{
-  background-color: black;
-}
-.pain{
-  background-color: #ff6600;
-}
-.header{
-  display: flex;
-  flex-direction: column;
-}
-.main{
-  background-color: rgb(117, 115, 115);
-}
-.title{
-  color: red;
-}
-p{
-  color: white;
-}
-a{
-  color: white;
-}
-.zelda{
-  background-color: black;
-  color: white;
-}
-.meme{
-  background-color: #ff6600;
-  color: black;
-  justify-content: space-evenly;
-}
-.drop{
-  background-color: #0055ff;
-  display: flex;
-}
-.side{
-  background-color: #0055ff;
-  display: flex;
-}
-.images{
-  height: 150px;
-}
-.feeter{
-  background-color: #0055ff;
-} */
