@@ -1,0 +1,100 @@
+@media screen and (max-width:1880px){
+    .zelda{
+        background-color: black;
+        background-image: url(https://zelda.nintendo.com/assets/img/news/link-hero.png);
+        background-repeat: no-repeat;
+        color: white;
+        height: 200vh;
+      }
+      .Form{
+        height: 50vh;
+      }
+      .disp{
+        background-color: rgb(9, 97, 46);
+        height: 70vh;
+      }
+      .desc{
+        display: flex;
+        align-items: center;
+        height: 60vh;
+      }
+      .find{
+        height: 500px;
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        position: absolute;
+        transform: translate(70vh, 15vh);
+      }
+      .cat{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        position: absolute;
+        transform: translate(5vh, -18vh);
+      }
+      .looks{
+        border-radius: 10px;
+        position: absolute;
+        transform: translate(5vh, 15.5vh);
+        border-radius: 10px;
+      }
+      .where{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        position: relative;
+        transform: translate(70vh,15vh);
+      }
+}
+@media screen and (max-width: 990px){
+    .App {
+      text-align: center;
+    }
+    /* p:hover{
+      text-shadow: red -3px 0, cyan 3px 0;
+    } */
+    .disp{
+      background-color: rgb(9, 97, 46);
+    }
+    .direct{
+      background-color: black;
+    }
+    .header{
+      display: flex;
+      flex-direction: column;
+    }
+    .main{
+      background-color: rgb(117, 115, 115);
+    }
+    .title{
+      color: red;
+    }
+    p{
+      color: white;
+    }
+    a{
+      color: white;
+    }
+    .zelda{
+      background-color: red;
+      background-repeat: no-repeat; 
+    }
+    .dir{
+      position: fixed;
+      background-color: black;
+      height: 8vh;
+      font-size: medium;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+    .Form{
+      height: 50vh;
+    }
+    .feeter{
+      background-color: #0055ff;
+    }
+  }

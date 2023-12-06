@@ -9,9 +9,17 @@ function Display(props) {
             <div className="find">
             <h1>Description:</h1>
             <p>{props.currentName.data.description}</p>
+            <p>{props.currentName.message}</p>
             </div>
             <div className="looks">
-                <img src={props.currentName.data.image} alt={props.currentName.data.name}/>
+                <img style={{borderRadius: '10px'}} src={props.currentName.data.image} alt={props.currentName.data.name}/>
+            </div>
+            <div className="where">
+            <h1>Locations:</h1>
+            <p>{props.currentName.data.common_locations[0]}</p>
+            <p>{props.currentName.data.common_locations[1]}</p>
+            <p>{props.currentName.data.common_locations[2]}</p>
+            <p>{props.currentName.data.common_locations[3]}</p>
             </div>
         </div>
     )

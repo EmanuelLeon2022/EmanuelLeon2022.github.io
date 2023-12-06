@@ -9,12 +9,11 @@
   .App {
     text-align: center;
   }
-  p:hover{
+  .broken:hover{
     text-shadow: red -3px 0, cyan 3px 0;
   }
-  .disp{
-    background-color: rgb(9, 97, 46);
-    height: 50vh;
+  a:hover{
+    text-shadow: red -3px 0, cyan 3px 0;
   }
   .direct{
     background-color: black;
@@ -35,13 +34,6 @@
   a{
     color: white;
   }
-  .zelda{
-    background-color: black;
-    background-image: url(https://zelda.nintendo.com/assets/img/news/link-hero.png);
-    background-repeat: no-repeat;
-    color: white;
-    height: 180vh;
-  }
   .dir{
     position: fixed;
     background-color: black;
@@ -51,35 +43,6 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-  }
-  .Form{
-    height: 50vh;
-  }
-  .desc{
-    display: flex;
-    align-items: center;
-    height: 60vh;
-  }
-  .find{
-    height: 500px;
-    width: 500px;
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    position: absolute;
-    transform: translate(60vh, 4vh);
-  }
-  .cat{
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    position: absolute;
-    transform: translate(5vh, -23vh);
-  }
-  .looks{
-    position: absolute;
-    transform: translate(5vh, 2vh);
-    border-radius: 10px;
   }
   .pain{
     font-family: "Space Mono", monospace;
@@ -91,19 +54,6 @@
     display: flex;
     justify-content: baseline;
     flex-direction: column;
-  }
-  .meme{
-    background-color: #ff6600;
-    color: black;
-    justify-content: space-evenly;
-  }
-  .drop{
-    background-color: #0055ff;
-    display: flex;
-  }
-  .side{
-    background-color: #0055ff;
-    display: flex;
   }
   .nice{
     display: flex;
@@ -175,9 +125,9 @@
   .App {
     text-align: center;
   }
-  p:hover{
+  /* p:hover{
     text-shadow: red -3px 0, cyan 3px 0;
-  }
+  } */
   .disp{
     background-color: rgb(9, 97, 46);
   }
