@@ -13,6 +13,7 @@
       }
       .Form{
         height: 50vh;
+        margin: auto;
       }
       .disp{
         background-color: rgb(9, 97, 46);
@@ -88,6 +89,7 @@
     }
     .Form{
       height: 60vh;
+      margin: auto;
     }
     .disp{
       background-color: rgb(9, 44, 97);
@@ -96,7 +98,7 @@
     .desc{
       display: flex;
       align-items: center;
-      height: 80vh;
+      height: 100vh;
     }
     .find{
       height: 500px;
@@ -104,18 +106,18 @@
       flex-direction: column;
       text-align: left;
       position: absolute;
-      transform: translate(5vh, 25vh);
+      transform: translate(5vh, 15vh);
     }
     .cat{
       display: flex;
       flex-direction: column;
       text-align: left;
       position: absolute;
-      transform: translate(5vh, -32vh);
+      transform: translate(5vh, -41vh);
     }
     .looks{
       position: absolute;
-      transform: translate(60vh, 5vh);
+      transform: translate(5vh, 25vh);
       border-radius: 10px;
     }
     .where{
@@ -123,7 +125,7 @@
       flex-direction: column;
       text-align: left;
       position: relative;
-      transform: translate(66vh,-32.5vh);
+      transform: translate(66vh,-41.5vh);
     }
     .open{
       width: 75vh;
@@ -150,7 +152,7 @@
       width: 80vh;
       display: flex;
       flex-direction: column;
-      justify-content: center;
+      margin: auto;
     }
     .open{
       width: 75vh;

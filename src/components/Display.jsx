@@ -12,7 +12,7 @@ function Display(props) {
             <p>{props.currentName.message}</p>
             </div>
             <div className="looks">
-                <img style={{borderRadius: '10px'}} src={props.currentName.data.image} alt={props.currentName.data.name}/>
+                <img style={{borderRadius: '10px', height: '220px'}} src={props.currentName.data.image} alt={props.currentName.data.name}/>
             </div>
             <div className="where">
             <h1>Locations:</h1>
