@@ -27,7 +27,7 @@ function Me() {
         </div>
         </div>
         <div className="gnd">
-
+          <Carol/>
         </div>
     </div>
   )

@@ -1,10 +1,9 @@
 import "../App.css";
 import { useState } from "react";
-// import Card from "./buttons/Card";
 import Card from "./buttons/Card";
 import cardImages from "./models/cardImg";
 import symbols from "./models/symbols";
-import Button from './components/buttons/Button';
+import Button from './buttons/Button';
 
 function Carol() {
   // where our function and state will reside
