@@ -58,7 +58,7 @@
         text-align: right;
       }
 }
-@media screen and (max-width: 990px){
+@media screen and (max-width: 950px){
     .disp{
       background-color: rgb(9, 97, 46);
     }

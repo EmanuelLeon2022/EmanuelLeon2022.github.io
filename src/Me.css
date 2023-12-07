@@ -1,15 +1,89 @@
+@font-face {
+  font-family: face;
+  src: url('Valorant\ Font.ttf');
+}
+
 @media screen and (max-width: 1880px){
-    .meme{
-        background-color: #ff6600;
+      .nam{
+        font-family: face;
+        color: gold;
+      }
+      .meme{
+        background-color: #9d8a62;
         color: black;
         justify-content: space-evenly;
+        height: 200vh;
       }
       .drop{
         background-color: #0055ff;
+        border: solid white 2px;
+        border-radius: 5px;
+        width: 75vh;
         display: flex;
+        flex-direction: column;
+        padding: 20px;
+        margin: auto;
       }
       .side{
         background-color: #0055ff;
         display: flex;
       }
+  }
+  @media screen and (max-width: 950px){
+    p{
+      color: white;
+    }
+    .dir{
+      position: fixed;
+      background-color: black;
+      height: 8vh;
+      font-size: medium;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+    .meme{
+      background-color: #ff6600;
+      color: black;
+    }
+    .drop{
+      background-color: black;
+      width: 50vh;
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+    }
+    .side{
+      background-color: #0055ff;
+      display: flex;
+    }
+    .feeter{
+      background-color: #0055ff;
+    }
+  }
+  @media screen and (max-width: 700px){
+    .meme{
+      background-image: url(https://art.pixilart.com/b48a43ad690ea4c.gif);
+      background-repeat: repeat-x;
+    }
+    .meme, p{
+      color: white;
+    }
+    .nam{
+      color: white;
+      display: flex;
+      justify-content: center;
+    }
+    .side{
+      display: flex;
+      justify-content: center;
+    }
+    .drop{
+      display: flex;
+      flex-direction: column;
+      width: 350px;
+      background-color: black;
+      margin: auto;
+    }
   }

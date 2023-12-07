@@ -18,27 +18,27 @@ function Main() {
       </div>
       <div className='rasp'>
         <div className='nice'>
-          <h3><a>RetroPie</a></h3>
+          <h3><a style={{fontFamily: 'face'}}>RetroPie</a></h3>
           <img className='image1' src="https://content.instructables.com/F2Z/MOTA/KVAYJU67/F2ZMOTAKVAYJU67.jpg?auto=webp&frame=1&width=1024&height=1024&fit=bounds&md=4a751bf5dea52de1daa84950b42fa270" alt="Small Gaming console on box" />
-          <img className='image2' src="https://content.instructables.com/FG5/FRPQ/KVAYJU68/FG5FRPQKVAYJU68.jpg?auto=webp&frame=1&width=1024&height=1024&fit=bounds&md=c8d758db9beea5dedc197c2daf2a3f98" alt="Sonic 2 running on the Console" />
+          <img className='image2' style={{rotate: "270deg"}} src="https://content.instructables.com/FG5/FRPQ/KVAYJU68/FG5FRPQKVAYJU68.jpg?auto=webp&frame=1&width=1024&height=1024&fit=bounds&md=c8d758db9beea5dedc197c2daf2a3f98" alt="Sonic 2 running on the Console" />
         </div>
       </div>
       <div className='snail'>
         <div className='race'>
           <h3>Snail Race </h3>
-          <img className='image3' src="../stuff/snails.png" alt="Snail race game in browser" />
+          <img className='image3' src="snails.png" alt="Snail race game in browser" />
         </div>
       </div>
       <div className='web'>
         <div className='lego'>
           <h3>Website </h3>
-          <img className='image3' src="https://lh3.googleusercontent.com/pw/ADCreHd0aLeI1l7N7ZyzCl-PGDd1DB80F8mMMFN2krmFoszQNEarUeixgJ9r9SFIQuaXEhybKuHyLzSX4pmDuDHmD-WYPIzdkFBngcU6NzpKeStIdnqYOc5_5eYFQw74y5hJhgEhmeDKlGRxr5g4AyvX4WMD8iXx4A18jvt82-p1b-pqCgyqG3jpm4iiZ1K0MmmUymn-qgWRmRfQOkzo4U77_6HPKxUw0EbUBN1kr3py48wvvL48K8hCCesjDM4Nu3qIZh0HdifsZGlZe3YSOabllSdsdinJZggxcMpWhla-LQmb4ZSZ6pUv4l6Dpfd_fiSJM8Y3lB7jYnRhBeCrkufBm0FrFFjQMjQ7BiX2044b47S6P357aBP3pwtdKbD5nsO5WW9iL9xu2ueotK_-_YAbvM_3R-cq4g0UqOBBCnNDuGpsUBxFgumAp4UMy10KYFIoyk7xR_whrQ3VdrCMkywyBL58qtjoAXC-MIayz2DeBrHVHlteT4LXBgPnqvWPi6N8gC8hYCTBoawcOzt8kU8L7hZA0VjMqofISxwyS4FwIk0Naiycshm6gTyiS3D5eBvz5U1HRFG-ms3raK77vXgVkF4sRV68wpphysEBUBrvng66LK2_v3guxKM32kdPYdBrLgPl_MF7N1Pz9BpGV4JCxdVpV-qVkL_b8O4pWjOFeJdd_wwhEBM8xHG_Y4RqCE8RLkjEGYkT3lSHlZ0bPX_95nRnnMqXrIKZN223ADUDYBolzTzr0t_7BJKXk4VgxahJe0vdtwDBgOskx_-UK6ptAmdWd8ee0cn7tQT5vzSe3FWtJfrSc1HJXeSRmqcxJzjgLluND8HhAaYktM-tsFDtKiewmlULOtzfXmVEfcN0Qe4iiEOk4TfvJUYsjx04A-PHHg=w1580-h746-s-no-gm?authuser=" alt="Website in Development" />
+          <img className='image3' src="webs.png" alt="Website in Development" />
         </div>
       </div>
       <div className='projx'>
         <h2 style={{color: 'white'}}>Project List</h2>
-        <a href='https://www.instructables.com/The-Box-of-Nostalgia-Semi-Portable-Retro-Gaming-Co/' target="_blank"><p className='dojo'>Retropie</p></a>
-        <a href='https://github.com/EmanuelLeon2022/Snail-racers/tree/main' target="_blank"><p className='dojo'
+        <a href='https://www.instructables.com/The-Box-of-Nostalgia-Semi-Portable-Retro-Gaming-Co/' target="_blank"><p style={{fontFamily:'face'}} className='dojo'>Retropie</p></a>
+        <a href='https://github.com/EmanuelLeon2022/Snail-racers/tree/main' target="_blank"><p style={{fontFamily:'face'}} className='dojo'
         >Snail Racers</p></a>
       </div>
       <div className='broken'>
