@@ -1,6 +1,7 @@
 
 const symbols = {
     left: '<-',
-    right: '->'
+    right: '->',
+    hiyaa: '8'
 }
 module.exports = symbols

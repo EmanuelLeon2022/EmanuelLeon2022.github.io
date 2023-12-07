@@ -14,8 +14,7 @@ function Main() {
         <h1 className='manny'>Home</h1>
         <h1>&nbsp;</h1>
         <div className='age'>
-        <p>Hello visitors and welcome to my website. As you can see there are still a lot of things missing here.</p>
-        <p>It is still a work in progress, but feel free to browse around. On this page is where you will find most of my most recent projects. I have built a Raspberry Pi computer arcade machine, a snail racing game, and this website which you are currently visiting.</p>
+        <p>Hello visitors and welcome to my website. As you can see there are still a lot of things missing here. It is still a work in progress, but feel free to browse around. On this page is where you will find most of my most recent projects. I have built a Raspberry Pi computer arcade machine, a snail racing game, and this website which you are currently visiting.</p>
         </div>
       </div>
       <div className='rasp'>
