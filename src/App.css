@@ -120,9 +120,6 @@
   .App {
     text-align: center;
   }
-  .disp{
-    background-color: rgb(0, 115, 115);
-  }
   .direct{
     background-color: black;
   }
@@ -131,7 +128,7 @@
     flex-direction: column;
   }
   .main{
-    background-color: rgb(0, 115, 115)
+    background-color: rgb(3, 59, 59)
   }
   .title{
     color: red;
@@ -182,5 +179,10 @@
   }
 }
 @media screen and (max-width: 600px){
-  
+  .manny{
+    color: red;
+  }
+  .pain{
+    color: white;
+  }
 }
