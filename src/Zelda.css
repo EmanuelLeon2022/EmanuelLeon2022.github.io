@@ -1,3 +1,7 @@
+@font-face {
+  font-family: zelda;
+  src: url(The\ Wild\ Breath\ of\ Zelda.otf);
+}
 @media screen and (max-width:1880px){
     .zelda{
         background-color: black;
@@ -139,7 +143,7 @@
       width: 100vh;
     }
      p{
-      color: white;
+      color: rgb(37, 37, 236);
       text-shadow: green -1.5px 0;
     }
     .Form{

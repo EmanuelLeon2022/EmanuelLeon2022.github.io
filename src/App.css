@@ -48,7 +48,7 @@
     justify-content: space-evenly;
   }
   .pain{
-    font-family: "Space Mono", monospace;
+    font-family: 'temp';
   }
   .dojo{
     color: blue;
@@ -156,7 +156,7 @@
     height: 50vh;
   }
   .pain{
-    font-family: "Space Mono", monospace;
+    font-family: "spacetime";
   }
   .nice{
     display: flex;
@@ -173,8 +173,8 @@
     height: 300px;
   }
   .manny{
-    font-family: 'Poppins', sans-serif;
-    color: white;
+    font-family: 'face';
+    color: red;
     text-shadow: #0055ff
   }
   .feeter{

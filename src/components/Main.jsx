@@ -12,9 +12,11 @@ function Main() {
       <h1>&nbsp;</h1>
       <div className='pain'>
         <h1 className='manny'>Home</h1>
+        <div className='age'>
         <p>Hello visitors and welcome to my website. As you can see there are still a lot of things missing here.</p>
         <p>It is still a work in progress, but feel free to browse around. On this page is where you will find most of my most recent projects</p>
         <p>I have built a Raspberry Pi computer arcade machine, a snail racing game, and this website which you are currently visiting.</p>
+        </div>
       </div>
       <div className='rasp'>
         <div className='nice'>
@@ -36,7 +38,7 @@ function Main() {
         </div>
       </div>
       <div className='projx'>
-        <h2 style={{color: 'white'}}>Project List</h2>
+        <h2 style={{color: 'white',fontFamily:'face'}}>Project List</h2>
         <a href='https://www.instructables.com/The-Box-of-Nostalgia-Semi-Portable-Retro-Gaming-Co/' target="_blank"><p style={{fontFamily:'face'}} className='dojo'>Retropie</p></a>
         <a href='https://github.com/EmanuelLeon2022/Snail-racers/tree/main' target="_blank"><p style={{fontFamily:'face'}} className='dojo'
         >Snail Racers</p></a>

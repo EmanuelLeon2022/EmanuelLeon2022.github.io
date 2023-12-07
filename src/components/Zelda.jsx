@@ -22,13 +22,14 @@ function Zelda() {
         <Directory/>
         <div className='Form'>
         <h1> &nbsp;  </h1>
-        <h1>ZELDA API</h1>
-        <p>Here you can look up anything from the hit game</p>
-        <p>The Legend of Zelda Breath of the Wild.</p>
-        <p>Note you cannot look up characters, you can only look up mobs and items.</p>
-        <p>This version does not include the Tears of the Kingdom version of the API.</p>
-        <p>Also try not to submit a blank request as that might break the site.</p>
-        <p>Other than that, happy searching</p>
+        <h1 style={{fontFamily: 'zelda'}}>ZELDA API</h1>
+        <p>&nbsp;</p>
+        <p style={{fontFamily: 'zelda', fontSize:'20px'}}>Here you can look up anything from the hit game</p>
+        <p style={{fontFamily: 'zelda', fontSize:'20px'}}>The Legend of Zelda Breath of the Wild.</p>
+        <p style={{fontFamily: 'zelda', fontSize:'20px'}}>Note you cannot look up characters, you can only look up mobs and items.</p>
+        <p style={{fontFamily: 'zelda', fontSize:'20px'}}>This version does not include the Tears of the Kingdom version of the API.</p>
+        <p style={{fontFamily: 'zelda', fontSize:'20px'}}>Also try not to submit a blank request as that might break the site.</p>
+        <p style={{fontFamily: 'zelda', fontSize:'20px'}}>Other than that, happy searching</p>
         <Form gamesearch={getName} />
         </div>
         <div className='disp'>
