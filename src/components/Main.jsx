@@ -15,13 +15,12 @@ function Main() {
         <h1>&nbsp;</h1>
         <div className='age'>
         <p>Hello visitors and welcome to my website. As you can see there are still a lot of things missing here.</p>
-        <p>It is still a work in progress, but feel free to browse around. On this page is where you will find most of my most recent projects</p>
-        <p>I have built a Raspberry Pi computer arcade machine, a snail racing game, and this website which you are currently visiting.</p>
+        <p>It is still a work in progress, but feel free to browse around. On this page is where you will find most of my most recent projects. I have built a Raspberry Pi computer arcade machine, a snail racing game, and this website which you are currently visiting.</p>
         </div>
       </div>
       <div className='rasp'>
+      <h3><a style={{fontFamily: 'face'}}>RetroPie</a></h3>
         <div className='nice'>
-          <h3><a style={{fontFamily: 'face'}}>RetroPie</a></h3>
           <img className='image1' src="https://content.instructables.com/F2Z/MOTA/KVAYJU67/F2ZMOTAKVAYJU67.jpg?auto=webp&frame=1&width=1024&height=1024&fit=bounds&md=4a751bf5dea52de1daa84950b42fa270" alt="Small Gaming console on box" />
           <img className='image2' style={{rotate: "270deg"}} src="https://content.instructables.com/FG5/FRPQ/KVAYJU68/FG5FRPQKVAYJU68.jpg?auto=webp&frame=1&width=1024&height=1024&fit=bounds&md=c8d758db9beea5dedc197c2daf2a3f98" alt="Sonic 2 running on the Console" />
           <img className='image1' src="https://content.instructables.com/FD6/AJQ1/KUCXRN2G/FD6AJQ1KUCXRN2G.jpg?auto=webp&frame=1&width=800&height=1024&fit=bounds&md=9fc14392388f3df66e52d6cbc433d6d2" alt="Arcade" />
@@ -35,7 +34,7 @@ function Main() {
       </div>
       <div className='web'>
         <div className='lego'>
-          <h3><a href='https://github.com/EmanuelLeon2022/EmanuelLeon2022.github.io' target='_blank'>Website</a></h3>
+          <h3 ><a style={{fontFamily: 'face'}} href='https://github.com/EmanuelLeon2022/EmanuelLeon2022.github.io' target='_blank'>Website</a></h3>
           <img className='image3' src="https://content.instructables.com/FZD/12Y6/LPV7K7W3/FZD12Y6LPV7K7W3.png?auto=webp&frame=1&width=1024&fit=bounds&md=4d412df54b376277d844104e75041f8e" alt="Website in Development" />
           <img className='image3' src="https://content.instructables.com/FIK/VBK6/LPV7KAT2/FIKVBK6LPV7KAT2.png?auto=webp&frame=1&crop=3:2&width=400&fit=bounds&md=5bda058e2f14bebfe3e59acaf9881d43" alt="Website in Development" />
           <img className='image3' src="https://content.instructables.com/F9Q/OVEE/LPV7KAT8/F9QOVEELPV7KAT8.png?auto=webp&frame=1&crop=3:2&width=400&fit=bounds&md=a2df0e4afee350ba34d713c56f121efa" alt="Website in Development" />
