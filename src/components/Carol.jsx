@@ -17,26 +17,29 @@ function Carol() {
     setCount(count - 1);
     setCurrentPic(cardImages[count]);
     console.log(count)
+    if(count==-1){
+        setCount(count = 6);
+        setCurrentPic(cardImages[count])
+    }
   };
 
   const changeCount = () => {
     setCount(count + 1);
     setCurrentPic(cardImages[count]);
     console.log(count)
+    if(count==6){
+        setCount(count = 1);
+        setCurrentPic(cardImages[count])
+    }
   };
-//   const resetCount =() =>{
-//         setCount(count=0);
-//         setCurrentPic(cardImages[count]);
-//         console.log(count);
-//   }
+  
   return (
     <div className="App">
       <Card currentCount={count} currentPic={cardImages[count]} />
 
       <div style={{ display: "flex" }}>
-        <Button togglePic={reverseCount} icon={symbols.left} />
-        <Button togglePic={changeCount} icon={symbols.right} />
-        {/* <Button togglePic={resetCount} icon={symbols.hiyaa} /> */}
+        <Button className='lb' togglePic={reverseCount} icon={symbols.left} />
+        <Button className='rb' togglePic={changeCount} icon={symbols.right} />
       </div>
     </div>
   );
