@@ -33,6 +33,9 @@
     p{
       color: white;
     }
+    .nam:hover{
+      text-shadow: red -2px 0, cyan 2px 0;
+    }
     .dir{
       position: fixed;
       background-color: black;
@@ -44,11 +47,11 @@
       justify-content: space-evenly;
     }
     .meme{
-      background-color: #ff6600;
+      background-color: black;
       color: black;
     }
     .drop{
-      background-color: black;
+      background-color: #0055ff;
       width: 50vh;
       display: flex;
       flex-direction: column;

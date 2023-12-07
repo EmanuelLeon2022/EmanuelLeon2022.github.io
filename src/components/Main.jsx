@@ -27,14 +27,16 @@ function Main() {
       </div>
       <div className='snail'>
         <div className='race'>
-          <h3>Snail Race </h3>
-          <img className='image3' src="snails.png" alt="Snail race game in browser" />
+          <h3><a style={{fontFamily: 'face'}}>Snail Race</a></h3>
+          <img className='image3' src="https://content.instructables.com/FQM/42SF/LPV7K50Z/FQM42SFLPV7K50Z.png?auto=webp&frame=1&width=1024&fit=bounds&md=251d7cbb91a4666bcf11a028f4c9f626" alt="Snail race game in browser" />
         </div>
       </div>
       <div className='web'>
         <div className='lego'>
-          <h3>Website </h3>
-          <img className='image3' src="webs.png" alt="Website in Development" />
+          <h3><a href='https://github.com/EmanuelLeon2022/EmanuelLeon2022.github.io' target='_blank'>Website</a></h3>
+          <img className='image3' src="https://content.instructables.com/FZD/12Y6/LPV7K7W3/FZD12Y6LPV7K7W3.png?auto=webp&frame=1&width=1024&fit=bounds&md=4d412df54b376277d844104e75041f8e" alt="Website in Development" />
+          <img className='image3' src="https://content.instructables.com/FIK/VBK6/LPV7KAT2/FIKVBK6LPV7KAT2.png?auto=webp&frame=1&crop=3:2&width=400&fit=bounds&md=5bda058e2f14bebfe3e59acaf9881d43" alt="Website in Development" />
+          <img className='image3' src="https://content.instructables.com/F9Q/OVEE/LPV7KAT8/F9QOVEELPV7KAT8.png?auto=webp&frame=1&crop=3:2&width=400&fit=bounds&md=a2df0e4afee350ba34d713c56f121efa" alt="Website in Development" />
         </div>
       </div>
       <div className='projx'>
@@ -51,6 +53,7 @@ function Main() {
       <a href='https://www.youtube.com/watch?v=VS0VlG4uE6U' target="_blank"><p>𝐏⃥⃒̸𝐥⃥⃒̸𝐞⃥⃒̸𝐚⃥⃒̸𝐬⃥⃒̸𝐞⃥⃒̸ 𝐰⃥⃒̸𝐨⃥⃒̸𝐫⃥⃒̸𝐤⃥⃒̸</p></a>
       <p>I mean, D̷͇̹̦̲̭̙͒̅ͣ̿ỡ̢̡̭̗̘̜̺̹͖̪͈̿̈́̌ͫ͗̾ͩ̓͆͆̀̊ͪ̊́̎̚̕͜͡n̴̢̨̹̜͈̱͚̥̖ͨͭͭ̃ͪ̔ͪ͂ͪ̚͘'̳̆t̵̨͇̙͓͓̝͖ͨ̀ͦ͑ w̷̡̡̺̲͇̜̞͍̣̲̳̼͇̥̻ͣ̽͗̒̽͗̒͑ͪ̄̋̃̑͛ͥ͜͠o̶̞͔̹̪̻̪ͥ̀͛͐̾r̴̗͉̔ͬ̽ͧ͗̿͒ͯͥ̂_̴̡̫̰̭̠̽̃͐́͂ͅr͔ͣ̄̊ͧ͛͌y̶̢̝̻ͩ̽̇͊͊̕͜͜͢ i̢̨̗ͪ͆͡͞t͎̞̳̲̰̖̼͖̭̫̩̫͙̻̦̫̣͈̘͆̿ͪ̿̿ͩ̃̑ͧͭ́̎͊͂̀́͘'̶̡̢̪̦̩̙͓̠̲̜͉͔̣̮̀̽ͭ̅̀͜͜͠s̶̴̙̩͚̯̼͕͔̩ͬ͛͑ͭͪ̔͜͠ a̶̸̛̛̯̫̭ͪͭ̃ͬ F͎̆̉͋ͨ̎͝ȩ̵̸̡̟̤͙̞̜̠̰̦̬͍̻̔̇̊ͬͤͯ̏̇́̍͛ͩ͛͌̚ą̵̸̫̙̘͕̝̫̦͔̜ͥ͋̈̃͟u̵̷̞̤̲͇̼̭̖̭̹ͬ͛ͩ̒̿̉ͦͯ͟tu̧̨̧͓͇͍̖̗͈̥̬̜̗̺ͧ̅̑̒̀̈́ͤͦ͗ͩ̿̀͆̕͘͟͡r̴̝͚̜̤̬̳͗̓͋̀̃ͧ̓̋̏̏ͨ́͂ͦͥͮ̍e̷̶̸̛̱͎̟̞̹͖̓̑ͣͪͥͩͩͥ̌ͤ̀ͤ̋͟,̭̣ n̵̨̧̬͎͔͙͙ͭ̅ͨ͂ͬͪ͂̀̾̑ͤ̃̂̽̚̚͢͡ͅo̧̭͎ͯ̓ͬ͝_̷̲̳̼̤̺͓͈̄ͬ͒̒̋̓̐͢͡t̴̵̶̸̶̨̲̦͓̩͔̩̪̝̫͎̜̭ͬ͆ͦ̒͌̌́ͭͤ̈̉͘͢͢ͅ ä̢̧̪̤̪͚̬̰̬͓͒̇ͪ̀̆̔̑͛̄ͭ̓̃̓͜͠͝ͅ_͚͓̣̼͍͙̺̟̥̟̔ͬ͆͠ B̶̴̧̜̣̪͈̱̫͇̦̲͚̪͈̳̫̬͈̓́̀͒ͧ͂̅͋̑̀̀͑̀̐͘͜͢͟͠u̷̶̢̨̬͙͙̫̠̜̙̯ͨ́ͩͯ͗ͩ̎ͬ̓̉͐ͦ͝g̸̶̨̡̝͚͉ͭ̇ͥ̆͌ͥ̈́͊̑͟͜͢</p>
       <p>ዐⶴ ቻዐዪፏቹፕ ጎፕ</p>
+      <p>&nbsp;</p>
       </div>
       <div className='feeter'>
         <Footer />

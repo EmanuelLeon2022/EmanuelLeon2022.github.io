@@ -177,6 +177,9 @@
   .feeter{
     background-color: #0055ff;
   }
+  .broken:hover{
+    text-shadow: red -3px 0, cyan 3px 0;
+  }
 }
 @media screen and (max-width: 600px){
   .manny{
@@ -184,5 +187,8 @@
   }
   .pain{
     color: white;
+  }
+  .broken:hover{
+    text-shadow: red -3px 0, cyan 3px 0;
   }
 }
