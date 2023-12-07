@@ -114,6 +114,8 @@
     border: solid blue 3px;
     background-image: url(https://i.pinimg.com/originals/8e/14/55/8e145599d4847e339828787162952035.gif);
     margin: auto;
+    display: flex;
+    justify-content: space-evenly;
   }
 }
 @media screen and (max-width: 990px){

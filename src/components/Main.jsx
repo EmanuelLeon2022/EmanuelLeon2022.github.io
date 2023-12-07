@@ -23,6 +23,7 @@ function Main() {
           <h3><a style={{fontFamily: 'face'}}>RetroPie</a></h3>
           <img className='image1' src="https://content.instructables.com/F2Z/MOTA/KVAYJU67/F2ZMOTAKVAYJU67.jpg?auto=webp&frame=1&width=1024&height=1024&fit=bounds&md=4a751bf5dea52de1daa84950b42fa270" alt="Small Gaming console on box" />
           <img className='image2' style={{rotate: "270deg"}} src="https://content.instructables.com/FG5/FRPQ/KVAYJU68/FG5FRPQKVAYJU68.jpg?auto=webp&frame=1&width=1024&height=1024&fit=bounds&md=c8d758db9beea5dedc197c2daf2a3f98" alt="Sonic 2 running on the Console" />
+          <img className='image1' src="https://content.instructables.com/FD6/AJQ1/KUCXRN2G/FD6AJQ1KUCXRN2G.jpg?auto=webp&frame=1&width=800&height=1024&fit=bounds&md=9fc14392388f3df66e52d6cbc433d6d2" alt="Arcade" />
         </div>
       </div>
       <div className='snail'>
