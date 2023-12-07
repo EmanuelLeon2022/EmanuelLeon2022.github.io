@@ -8,6 +8,9 @@
         font-family: face;
         color: gold;
       }
+      .nam:hover{
+        text-shadow: red -2px 0, cyan 2px 0;
+      }
       .meme{
         background-color: #9d8a62;
         color: black;

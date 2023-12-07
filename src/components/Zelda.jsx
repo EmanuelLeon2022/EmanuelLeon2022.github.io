@@ -22,6 +22,7 @@ function Zelda() {
         <Directory/>
         <div className='Form'>
         <h1> &nbsp;  </h1>
+        <h1> &nbsp; </h1>
         <h1 style={{fontFamily: 'zelda'}}>ZELDA API</h1>
         <p>&nbsp;</p>
         <p style={{fontFamily: 'zelda', fontSize:'20px'}}>Here you can look up anything from the hit game</p>

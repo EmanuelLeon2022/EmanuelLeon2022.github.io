@@ -5,7 +5,9 @@ import Directory from './Directory'
 function Me() {
   return (
     <div className='meme'>
+      <audio src=''/>
         <Directory/>
+        <h1>&nbsp;</h1>
         <h1>&nbsp;</h1>
         <h1 className='nam'>Emanuel Leon-Vargas</h1>
         <div className='drop'>
@@ -24,7 +26,6 @@ function Me() {
         </div>
         </div>
         <div className="gnd">
-
         </div>
     </div>
   )
