@@ -13,12 +13,21 @@ function Carol() {
 
   const [currentPic, setCurrentPic] = useState(cardImages[count]);
 
+  // const reverseCount = () => {
+  //   setCount(count - 1);
+  //   setCurrentPic(cardImages[count]);
+  //   console.log(count)
+  //   if(count<=0){
+  //       setCount(count == 5);
+  //       setCurrentPic(cardImages[count])
+  //   }
+  // };
   const reverseCount = () => {
     setCount(count - 1);
     setCurrentPic(cardImages[count]);
     console.log(count)
-    if(count==-1){
-        setCount(count = 6);
+    if(count<=-1 && count>=5){
+        setCount(count == -1);
         setCurrentPic(cardImages[count])
     }
   };
@@ -27,8 +36,8 @@ function Carol() {
     setCount(count + 1);
     setCurrentPic(cardImages[count]);
     console.log(count)
-    if(count==6){
-        setCount(count = 1);
+    if(count>=5){
+        setCount(count == 0);
         setCurrentPic(cardImages[count])
     }
   };

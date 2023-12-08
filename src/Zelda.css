@@ -197,3 +197,66 @@
       transform: translate(5vh,38vh);
     }
   }
+  @media screen and (max-width: 200px){
+    .zelda{
+      background-color: black;
+      background-repeat: no-repeat;
+      height: 325vh;
+    }
+    .Form{
+      height: 75vh;
+      width: 80vh;
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+    }
+    .open{
+      width: 75vh;
+      height: 50vh;
+      position: relative;
+      transform: translate(5vh, 5vh);
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+    .disp{
+      background-color: rgb(97, 56, 9);
+      height: 170vh;
+      width: 100vh;
+    }
+    .desc{
+      display: flex;
+      align-items: center;
+      height: 80vh;
+    }
+    .find{
+      height: 500px;
+      width: 200px;
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      position: absolute;
+      transform: translate(5vh, 90vh);
+    }
+    .cat{
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      position: absolute;
+      transform: translate(5vh, -30vh);
+    }
+    .looks{
+      border-radius: 10px;
+      padding: 10px;
+      position: absolute;
+      transform: translate(3vh, 5vh);
+      border-radius: 10px;
+    }
+    .where{
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      position: relative;
+      transform: translate(5vh,38vh);
+    }
+  }
