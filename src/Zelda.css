@@ -44,7 +44,7 @@
       }
       .looks{
         border-radius: 10px;
-        position: relative;
+        position: absolute;
         transform: translate(5vh, 15.5vh);
         border-radius: 10px;
       }
