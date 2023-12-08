@@ -54,6 +54,9 @@
     p{
       color: white;
     }
+    .meme{
+      height: 230vh;
+    }
     .nam:hover{
       text-shadow: red -2px 0, cyan 2px 0;
     }

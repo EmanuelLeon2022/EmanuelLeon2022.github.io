@@ -18,7 +18,7 @@ function Main() {
         <p>&nbsp;</p>
       </div>
       <div className='rasp'>
-      <h3><a style={{fontFamily: 'face'}}>RetroPie</a></h3>
+      <h3><a style={{fontFamily: 'face', color:'black', fontSize:'30px'}}>RetroPie</a></h3>
         <div className='nice'>
           <img className='image1' src="https://content.instructables.com/F2Z/MOTA/KVAYJU67/F2ZMOTAKVAYJU67.jpg?auto=webp&frame=1&width=1024&height=1024&fit=bounds&md=4a751bf5dea52de1daa84950b42fa270" alt="Small Gaming console on box" />
           <img className='image2' style={{rotate: "270deg"}} src="https://content.instructables.com/FG5/FRPQ/KVAYJU68/FG5FRPQKVAYJU68.jpg?auto=webp&frame=1&width=1024&height=1024&fit=bounds&md=c8d758db9beea5dedc197c2daf2a3f98" alt="Sonic 2 running on the Console" />
@@ -34,7 +34,7 @@ function Main() {
       </div>
       <p>&nbsp;</p>
       <div className='web'>
-      <h3 ><a style={{fontFamily: 'face'}} href='https://github.com/EmanuelLeon2022/EmanuelLeon2022.github.io' target='_blank'>Website</a></h3>
+      <h3 ><a style={{fontFamily: 'face',fontSize:'30px', color:'black'}} href='https://github.com/EmanuelLeon2022/EmanuelLeon2022.github.io' target='_blank'>Website</a></h3>
         <div className='lego'>
           <img className='image3' src="https://content.instructables.com/FZD/12Y6/LPV7K7W3/FZD12Y6LPV7K7W3.png?auto=webp&frame=1&width=1024&fit=bounds&md=4d412df54b376277d844104e75041f8e" alt="Website in Development" />
           <img className='image3' src="https://content.instructables.com/FIK/VBK6/LPV7KAT2/FIKVBK6LPV7KAT2.png?auto=webp&frame=1&crop=3:2&width=400&fit=bounds&md=5bda058e2f14bebfe3e59acaf9881d43" alt="Website in Development" />

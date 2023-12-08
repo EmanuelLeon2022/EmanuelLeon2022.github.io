@@ -152,7 +152,7 @@
       margin: auto;
     }
     .open{
-      width: 75vh;
+      width: 50vh;
       height: 50vh;
       margin: auto;
       display: flex;
@@ -212,15 +212,6 @@
       display: flex;
       flex-direction: column;
       margin: auto;
-    }
-    .open{
-      width: 75vh;
-      height: 50vh;
-      position: relative;
-      transform: translate(5vh, 5vh);
-      display: flex;
-      flex-direction: column;
-      text-align: center;
     }
     .disp{
       background-color: rgb(97, 56, 9);
