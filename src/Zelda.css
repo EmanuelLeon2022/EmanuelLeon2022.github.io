@@ -9,10 +9,12 @@
         background-repeat: no-repeat;
         color: white;
         height: 200vh;
+        width: auto;
       }
       .Form{
         height: 60vh;
         margin: auto;
+        width: auto;
         justify-content: center;
       }
       .disp{
@@ -87,6 +89,7 @@
     .Form{
       height: 60vh;
       margin: auto;
+      width: auto;
     }
     .disp{
       background-color: rgb(9, 44, 97);
@@ -139,10 +142,11 @@
       background-color: black;
       background-repeat: no-repeat;
       height: 325vh;
+      width: auto;
     }
     .Form{
       height: 75vh;
-      width: 80vh;
+      width: auto;
       display: flex;
       flex-direction: column;
       margin: auto;
@@ -150,8 +154,7 @@
     .open{
       width: 75vh;
       height: 50vh;
-      position: relative;
-      transform: translate(5vh, 5vh);
+      margin: auto;
       display: flex;
       flex-direction: column;
       text-align: center;
@@ -159,7 +162,7 @@
     .disp{
       background-color: rgb(97, 56, 9);
       height: 170vh;
-      width: 100vh;
+      width: auto;
     }
     .desc{
       display: flex;
