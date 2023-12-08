@@ -13,7 +13,7 @@ function Main() {
         <h1>&nbsp;</h1>
         <h1 style={{ fontSize:'50px'}} className='manny'>Home</h1>
         <div className='age'>
-        <p style={{ fontSize:'20px'}}>Hello visitors and welcome to my website. As you can see there are still a lot of things missing here. It is still a work in progress, but feel free to browse around. On this page is where you will find most of my most recent projects. I have built a Raspberry Pi computer arcade machine, a snail racing game, and this website which you are currently visiting.</p>
+        <p style={{ fontSize:'20px'}}>Hello visitors and welcome to my website. As you can see there are still a lot of things missing here. It is still a work in progress, but feel free to browse around. On this page is where you will find most of my most recent projects. I have built a Raspberry Pi computer arcade machine, a snail racing game, and this website which you are currently visiting. Early warning, if you are viewing this website on this version "https://emanuelleon.onrender.com" do not refresh when you enter "Zelda API" or "About Me", it tends to break the page.</p>
         </div>
         <p>&nbsp;</p>
       </div>
