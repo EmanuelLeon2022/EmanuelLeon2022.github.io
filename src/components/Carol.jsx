@@ -46,9 +46,14 @@ function Carol() {
     <div className="App">
       <Card currentCount={count} currentPic={cardImages[count]} />
 
-      <div style={{ display: "flex" }}>
-        <Button className='lb' togglePic={reverseCount} icon={symbols.left} />
-        <Button className='rb' togglePic={changeCount} icon={symbols.right} />
+      <div className="buton">
+        {/* <Button className='lb' togglePic={reverseCount} icon={symbols.left} /> */}
+        <div className='lb'>
+        <Button togglePic={reverseCount} icon={symbols.left}/>
+        </div>
+        <div className='rb'>
+        <Button togglePic={changeCount} icon={symbols.right} />
+        </div>
       </div>
     </div>
   );

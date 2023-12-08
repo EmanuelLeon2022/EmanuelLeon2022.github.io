@@ -127,16 +127,6 @@
     align-items: center;
     justify-content: space-evenly;
   }
-  .lb{
-    display: flex;
-    justify-content: right;
-  }
-  .rb{
-    display: flex;
-    justify-content: right;
-    position: absolute;
-    transform: translate(100vh, 10vh);
-  }
   .age{
     border: solid cadetblue;
     padding: 15px;
