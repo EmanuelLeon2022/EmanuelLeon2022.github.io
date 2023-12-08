@@ -41,15 +41,23 @@
       }
       .magic{
         border-radius: 5px;
-        height: auto;
+        height: 45vh;
         width: 80vh;
     }
     .alpha{
       width: 75vh;
       margin: auto;
+      background-color: #3764c8;
+      padding: 20px;
+      border: solid white 2.5px;
+      border-radius: 5px;
+    }
+    .learn{
+      width: 75vh;
+      margin: auto;
       background-color: #0055ff;
       padding: 20px;
-      border: solid purple 2.5px;
+      border: solid white 2.5px;
       border-radius: 5px;
     }
   }
@@ -89,8 +97,8 @@
     }
     .magic{
       border-radius: 5px;
-      height: 245px;
-      width: 56vh;
+      height: 35vh;
+      width: 58vh;
   }
   .alpha{
     width: 50vh;
@@ -100,7 +108,15 @@
     border-radius: 5px;
     background-color: #9d8a62;
   }
+  .learn{
+    width: 50vh;
+    margin: auto;
+    background-color: #0055ff;
+    padding: 20px;
+    border: solid white 2.5px;
+    border-radius: 5px;
   }
+}
   @media screen and (max-width: 600px){
     .meme{
       background-image: url(https://art.pixilart.com/b48a43ad690ea4c.gif);
@@ -109,6 +125,14 @@
     }
     .meme, p{
       color: white;
+    }
+    .alpha{
+      width: 65vh;
+      margin: auto;
+      padding: 10px;
+      border: solid gold 2.5px;
+      border-radius: 5px;
+      background-color: #0730a1;
     }
     .nam{
       color: white;
@@ -122,36 +146,17 @@
       background-color: black;
       margin: auto;
     }
+    .learn{
+      width: 65vh;
+      margin: auto;
+      background-color: #720a86;
+      padding: 10px;
+      border: solid white 2.5px;
+      border-radius: 5px;
+    }
     .magic{
       border-radius: 5px;
-      height: 43vh;
-      width: 53vh;
+      height: 30vh;
+      width: 57vh;
     }
-}
-@media screen and (max-width: 360px){
-  .meme{
-    background-image: url(https://art.pixilart.com/b48a43ad690ea4c.gif);
-    width: 100%;
-    background-repeat: repeat-x;
-  }
-  .meme, p{
-    color: white;
-  }
-  .nam{
-    color: white;
-    display: flex;
-    justify-content: center;
-  }
-  .drop{
-    display: flex;
-    flex-direction: column;
-    width: 350px;
-    background-color: black;
-    margin: auto;
-  }
-  .magic{
-    border-radius: 5px;
-    height: 25vh;
-    width: 53vh;
-}
 }

@@ -27,6 +27,8 @@ function Me() {
         </div>
       </div>
       <div className='drop'>
+        <h2 style={{fontFamily: 'face', color: 'white'}}>Professional Experience</h2>
+        <p>&nbsp;</p>
         <div>
           <h3 style={{fontFamily: 'sans-serif'}}>Leones Construction - Construction Worker  - Pittsburgh, PA 06/2023 - 08/2023</h3>
           <p>&nbsp;</p>
@@ -40,14 +42,24 @@ function Me() {
           <p>&nbsp;</p>
           <p style={{fontFamily: 'cursive'}}> School maintenance- the job was restocking the school bathrooms, restocking classroom cleaning supplies, and cleaning up cafeterias. Cataloging items - required me to identify what items were in stock such as toilet paper, paper towels, soap, rags and record what items were needed.</p>
         </div>
+      </div>
+      <p>&nbsp;</p>
+      <div className='learn'>
+        <h2 style={{fontFamily:'face', color:'white'}}>Educational Background</h2>
+        <p>&nbsp;</p>
         <div>
-
+          <h3 style={{fontFamily:'sans-serif'}}>Per Scholas - Software Engineering- Remote 01/2024</h3>
+          <p>&nbsp;</p>
+          <p>Software Engineering student - Took a span of four months and taught me HTML5, CSS3, JavaScript(ES6), and React. I also learned how to use Github to upload files and work, and how to use backend frameworks with API’s. They also taught me how to work as a team, and individually as well. It also helped me to learn project management under pressure.</p>
+        </div>
+        <p>&nbsp;</p>
+        <div>
+          <h3 style={{fontFamily:'sans-serif'}}>Bob Jones University  -	Greenville, SC 08/2022 - 05/2023</h3>
+          <p>&nbsp;</p>
+          <p>Some College: Earned 22 Credits towards a Bachelors in Mechanical Engineering</p>
         </div>
       </div>
       <p>&nbsp;</p>
-      <div>
-
-      </div>
       <div className="gnd">
         <Carol />
       </div>
