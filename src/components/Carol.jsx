@@ -26,6 +26,9 @@ function Carol() {
     setCount(count - 1);
     setCurrentPic(cardImages[count]);
     console.log(count)
+    if(count<=0){
+      setCount(count + 5);
+    }
   };
 
   const changeCount = () => {
