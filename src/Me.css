@@ -37,14 +37,17 @@
       }
       .lb{
         display: flex;
-        position: relative;
-        transform: translate(66vh,-10vh);
+        position: absolute;
       }
       .rb{
         display: flex;
-        position: relative;
-        transform: translate(152vh,-14vh);
+        position: absolute;
       }
+      .magic{
+        border-radius: 5px;
+        height: 245px;
+        width: 80vh;
+    }
   }
   @media screen and (max-width: 950px){
     p{
@@ -81,6 +84,11 @@
     .feeter{
       background-color: #0055ff;
     }
+    .magic{
+      border-radius: 5px;
+      height: 245px;
+      width: 56vh;
+  }
   }
   @media screen and (max-width: 700px){
     .meme{
@@ -106,4 +114,10 @@
       background-color: black;
       margin: auto;
     }
+    .magic{
+      border-radius: 5px;
+      height: 245px;
+      width: 53vh;
+  }
+  
   }

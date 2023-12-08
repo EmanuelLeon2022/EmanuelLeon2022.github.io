@@ -203,7 +203,10 @@
     text-shadow: red -3px 0, cyan 3px 0;
   }
   .rasp{
-    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+    width: 60%;
+    height: 120vh;
     border: solid white 3px;
     justify-content: space-between;
     margin: auto;
@@ -246,5 +249,19 @@
   }
   .broken:hover{
     text-shadow: red -3px 0, cyan 3px 0;
+  }
+  .rasp{
+    padding: 10px;
+    width: 60vh;
+    height: 120vh;
+  }
+  .snail{
+    padding: 10px;
+    width: 60vh;
+  }
+  .web{
+    padding: 10px;
+    width: 60vh;
+    height: 95vh;
   }
 }

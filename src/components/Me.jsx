@@ -16,6 +16,9 @@ function Me() {
         <div className='side'>
           <img src="" alt="" />
         </div>
+        <div className='alpha'>
+          
+        </div>
         <div>
             <p>* Leones Construction - Construction Worker  - Pittsburgh, PA 06/2023 - 08/2023</p>
             <p> Drywall Installation - requires measurement of the workspace, framing 2x4 beams, and drilling the drywall onto the frame to keep it locked in place. Once that is complete, the wall needs to be taped (a process in which you use joint compound to seal crevices in the wall), then painted with a coat of primer.</p>
