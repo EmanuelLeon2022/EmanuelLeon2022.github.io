@@ -15,6 +15,7 @@
         background-color: #9d8a62;
         color: black;
         justify-content: space-evenly;
+        width: 100%;
         height: 185vh;
       }
       .drop{
@@ -93,6 +94,7 @@
   @media screen and (max-width: 700px){
     .meme{
       background-image: url(https://art.pixilart.com/b48a43ad690ea4c.gif);
+      width: 100%;
       background-repeat: repeat-x;
     }
     .meme, p{

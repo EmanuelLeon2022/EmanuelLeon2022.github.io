@@ -53,7 +53,7 @@
         flex-direction: column;
         text-align: left;
         position: relative;
-        transform: translate(70vh,15vh);
+        transform: translate(3.5vh,15vh);
       }
       .open{
         width: 75vh;
