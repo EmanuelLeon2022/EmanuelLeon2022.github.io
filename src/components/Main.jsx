@@ -11,11 +11,11 @@ function Main() {
       <h1>&nbsp;</h1>
       <div className='pain'>
         <h1>&nbsp;</h1>
-        <h1 className='manny'>Home</h1>
-        <h1>&nbsp;</h1>
+        <h1 style={{ fontSize:'50px'}} className='manny'>Home</h1>
         <div className='age'>
-        <p>Hello visitors and welcome to my website. As you can see there are still a lot of things missing here. It is still a work in progress, but feel free to browse around. On this page is where you will find most of my most recent projects. I have built a Raspberry Pi computer arcade machine, a snail racing game, and this website which you are currently visiting.</p>
+        <p style={{ fontSize:'20px'}}>Hello visitors and welcome to my website. As you can see there are still a lot of things missing here. It is still a work in progress, but feel free to browse around. On this page is where you will find most of my most recent projects. I have built a Raspberry Pi computer arcade machine, a snail racing game, and this website which you are currently visiting.</p>
         </div>
+        <p>&nbsp;</p>
       </div>
       <div className='rasp'>
       <h3><a style={{fontFamily: 'face'}}>RetroPie</a></h3>
@@ -25,15 +25,17 @@ function Main() {
           <img className='image1' src="https://content.instructables.com/FD6/AJQ1/KUCXRN2G/FD6AJQ1KUCXRN2G.jpg?auto=webp&frame=1&width=800&height=1024&fit=bounds&md=9fc14392388f3df66e52d6cbc433d6d2" alt="Arcade" />
         </div>
       </div>
+      <p>&nbsp;</p>
       <div className='snail'>
         <div className='race'>
-          <h3><a style={{fontFamily: 'face'}}>Snail Race</a></h3>
-          <img className='image3' src="https://content.instructables.com/FQM/42SF/LPV7K50Z/FQM42SFLPV7K50Z.png?auto=webp&frame=1&width=1024&fit=bounds&md=251d7cbb91a4666bcf11a028f4c9f626" alt="Snail race game in browser" />
+          <h3><a style={{fontFamily: 'face', color: 'black', fontSize: '25px'}}>Snail Race</a></h3>
+          <img style={{justifyContent:'center'}} className='image3' src="https://content.instructables.com/FQM/42SF/LPV7K50Z/FQM42SFLPV7K50Z.png?auto=webp&frame=1&width=1024&fit=bounds&md=251d7cbb91a4666bcf11a028f4c9f626" alt="Snail race game in browser" />
         </div>
       </div>
+      <p>&nbsp;</p>
       <div className='web'>
+      <h3 ><a style={{fontFamily: 'face'}} href='https://github.com/EmanuelLeon2022/EmanuelLeon2022.github.io' target='_blank'>Website</a></h3>
         <div className='lego'>
-          <h3 ><a style={{fontFamily: 'face'}} href='https://github.com/EmanuelLeon2022/EmanuelLeon2022.github.io' target='_blank'>Website</a></h3>
           <img className='image3' src="https://content.instructables.com/FZD/12Y6/LPV7K7W3/FZD12Y6LPV7K7W3.png?auto=webp&frame=1&width=1024&fit=bounds&md=4d412df54b376277d844104e75041f8e" alt="Website in Development" />
           <img className='image3' src="https://content.instructables.com/FIK/VBK6/LPV7KAT2/FIKVBK6LPV7KAT2.png?auto=webp&frame=1&crop=3:2&width=400&fit=bounds&md=5bda058e2f14bebfe3e59acaf9881d43" alt="Website in Development" />
           <img className='image3' src="https://content.instructables.com/F9Q/OVEE/LPV7KAT8/F9QOVEELPV7KAT8.png?auto=webp&frame=1&crop=3:2&width=400&fit=bounds&md=a2df0e4afee350ba34d713c56f121efa" alt="Website in Development" />
