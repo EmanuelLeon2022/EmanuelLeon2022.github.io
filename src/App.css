@@ -92,6 +92,7 @@
   }
   .rasp{
     width: 90%;
+    height: 50vh;
     border: solid white 3px;
     justify-content: space-between;
     margin: auto;

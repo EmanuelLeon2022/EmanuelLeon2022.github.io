@@ -2,6 +2,7 @@ import React from 'react'
 import '../Me.css'
 import Directory from './Directory'
 import Carol from './Carol'
+import Footer from './Footer'
 
 function Me() {
   return (
@@ -29,6 +30,7 @@ function Me() {
         <div className="gnd">
           <Carol/>
         </div>
+        <Footer/>
     </div>
   )
 }

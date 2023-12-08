@@ -9,11 +9,11 @@
         background-repeat: no-repeat;
         color: white;
         height: 200vh;
-        width: 225vh;
       }
       .Form{
         height: 60vh;
         margin: auto;
+        justify-content: center;
       }
       .disp{
         background-color: rgb(9, 97, 46);
@@ -30,19 +30,19 @@
         display: flex;
         flex-direction: column;
         text-align: left;
-        position: absolute;
+        position: relative;
         transform: translate(70vh, 15vh);
       }
       .cat{
         display: flex;
         flex-direction: column;
         text-align: left;
-        position: absolute;
+        position: relative;
         transform: translate(5vh, -18vh);
       }
       .looks{
         border-radius: 10px;
-        position: absolute;
+        position: relative;
         transform: translate(5vh, 15.5vh);
         border-radius: 10px;
       }
@@ -56,11 +56,9 @@
       .open{
         width: 75vh;
         height: 50vh;
-        position: relative;
-        transform: translate(130vh, 5vh);
         display: flex;
         flex-direction: column;
-        text-align: right;
+        text-align: left;
       }
 }
 @media screen and (max-width: 950px){
@@ -75,7 +73,6 @@
       background-color: black;
       background-repeat: no-repeat;
       height: 240vh;
-      width: 150vh;
     }
     .dir{
       position: fixed;
@@ -141,8 +138,7 @@
     .zelda{
       background-color: black;
       background-repeat: no-repeat;
-      height: 310vh;
-      width: 95vh;
+      height: 325vh;
     }
     .Form{
       height: 75vh;
