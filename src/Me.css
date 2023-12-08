@@ -30,6 +30,7 @@
       .buton{
         margin: auto;
         align-items: center;
+        justify-content: center;
       }
       .lb{
         display: flex;
@@ -38,6 +39,7 @@
       .rb{
         display: flex;
         position: absolute;
+        transform: translateX(5vh);
       }
       .magic{
         border-radius: 5px;

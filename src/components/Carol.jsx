@@ -26,10 +26,6 @@ function Carol() {
     setCount(count - 1);
     setCurrentPic(cardImages[count]);
     console.log(count)
-    if(count<=-1 && count>=5){
-        setCount(count == -1);
-        setCurrentPic(cardImages[count])
-    }
   };
 
   const changeCount = () => {
@@ -37,8 +33,7 @@ function Carol() {
     setCurrentPic(cardImages[count]);
     console.log(count)
     if(count>=5){
-        setCount(count == 0);
-        setCurrentPic(cardImages[count])
+      setCount(count - 5);
     }
   };
   
@@ -47,7 +42,7 @@ function Carol() {
       <Card currentCount={count} currentPic={cardImages[count]} />
 
       <div className="buton">
-        {/* <Button className='lb' togglePic={reverseCount} icon={symbols.left} /> */}
+        <h1 style={{fontFamily:'face',color: 'white'}}>Buttons</h1>
         <div className='lb'>
         <Button togglePic={reverseCount} icon={symbols.left}/>
         </div>

@@ -1,7 +1,6 @@
 
 const symbols = {
-    left: '⬅️',
-    right: '➡️',
-    hiyaa: '8'
+    left: '←',
+    right: '→'
 }
 module.exports = symbols
