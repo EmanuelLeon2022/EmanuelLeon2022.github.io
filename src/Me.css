@@ -91,7 +91,7 @@
       width: 56vh;
   }
   }
-  @media screen and (max-width: 700px){
+  @media screen and (max-width: 600px){
     .meme{
       background-image: url(https://art.pixilart.com/b48a43ad690ea4c.gif);
       width: 100%;
@@ -121,5 +121,35 @@
       height: 245px;
       width: 53vh;
   }
-  
+}
+@media screen and (max-width: 360px){
+  .meme{
+    background-image: url(https://art.pixilart.com/b48a43ad690ea4c.gif);
+    width: 100%;
+    background-repeat: repeat-x;
   }
+  .meme, p{
+    color: white;
+  }
+  .nam{
+    color: white;
+    display: flex;
+    justify-content: center;
+  }
+  .side{
+    display: flex;
+    justify-content: center;
+  }
+  .drop{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    background-color: black;
+    margin: auto;
+  }
+  .magic{
+    border-radius: 5px;
+    height: 245px;
+    width: 53vh;
+}
+}
