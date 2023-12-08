@@ -44,6 +44,14 @@
         height: auto;
         width: 80vh;
     }
+    .alpha{
+      width: 75vh;
+      margin: auto;
+      background-color: #0055ff;
+      padding: 20px;
+      border: solid purple 2.5px;
+      border-radius: 5px;
+    }
   }
   @media screen and (max-width: 950px){
     p{
@@ -83,6 +91,14 @@
       border-radius: 5px;
       height: 245px;
       width: 56vh;
+  }
+  .alpha{
+    width: 50vh;
+    margin: auto;
+    padding: 15px;
+    border: solid gold 2.5px;
+    border-radius: 5px;
+    background-color: #9d8a62;
   }
   }
   @media screen and (max-width: 600px){
