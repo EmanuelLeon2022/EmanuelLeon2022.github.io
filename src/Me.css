@@ -85,6 +85,7 @@
     }
     .meme{
       background-color: black;
+      width: 100%;
       color: black;
     }
     .drop{
@@ -129,7 +130,7 @@
       color: white;
     }
     .alpha{
-      width: 65vh;
+      width: 50vh;
       margin: auto;
       padding: 10px;
       border: solid gold 2.5px;
@@ -149,7 +150,7 @@
       margin: auto;
     }
     .learn{
-      width: 65vh;
+      width: 50vh;
       margin: auto;
       background-color: #720a86;
       padding: 10px;
