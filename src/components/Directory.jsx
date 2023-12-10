@@ -14,7 +14,7 @@ function Directory() {
       <Link to="/Zelda">
       <h5 style={{fontFamily: 'face'}}>Zelda API</h5>
       </Link>
-      <Link>
+      <Link to='/Retro'>
       <h5 style={{fontFamily: 'face'}}>Cool Stuff</h5>
       </Link>
       <Link to="/Me">
