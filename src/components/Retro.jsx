@@ -1,8 +1,30 @@
 import React from 'react'
 import './Retro.css'
+import Sprites from './models/Sprites'
+import { useState } from 'react'
 import Directory from './Directory'
 
-class person{
+function Retro() {
+    const [count, setSprite] = useState(0);
+
+  const [currentSprite, setCurrentSprite] = useState(Sprites[count]);
+  
+  const idle = () =>{
+    setCurrentSprite(Sprites[0])
+  }
+  const run = () =>{
+    setCurrentSprite(Sprites[1])
+    // console.log(count)
+  }
+  const push = () =>{
+    setCurrentSprite(Sprites[2])
+    // console.log(count)
+  }
+  const taunt = () =>{
+    setCurrentSprite(Sprites[3])
+    // console.log(count)
+  }
+  class person{
     constructor(name){
         this.name = name
         this.speed = 0
@@ -20,28 +42,28 @@ const Sonic = new person('Sonic')
 window.addEventListener('keydown', e =>{
     if(e.keyCode === 39){
         Sonic.move();
+        run();
     }
 })
 window.addEventListener('keydown', e =>{
     if(e.keyCode === 37){
         Sonic.slow();
-    }
-    console.log(Sonic.speed)
-})
-window.addEventListener('keypress', e =>{
-    if(e.keyCode === 32){
-        Sonic.move();
+        push();
     }
 })
-
-function Retro() {
+window.addEventListener('keydown', e =>{
+    if(e.keyCode === 40){
+        taunt();
+    }
+})
+console.log(Sonic.speed)
   return (
     <div className='grade'>
         <Directory/>
         <p>&nbsp;</p>
         <p>&nbsp;</p>
-        <h1 className='mot'>{Sonic.name} {Sonic.speed}</h1>
-        <img src="" alt="Sonic the Hedgehog" style={{color: 'white',transform: `${Sonic.speed}`, height: '80px'}}/>
+        <h1>{Sonic.name} {Sonic.speed}</h1>
+        <img src={currentSprite} alt="Sonic the Hedgehog" style={{height:'100px', transform: `translateX${Sonic.speed}`}}/>
     </div>
   )
 }
