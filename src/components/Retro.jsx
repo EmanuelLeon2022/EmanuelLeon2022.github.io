@@ -62,7 +62,6 @@ console.log(Sonic.speed)
         <Directory/>
         <p>&nbsp;</p>
         <p>&nbsp;</p>
-        <h1>{Sonic.name} {Sonic.speed}</h1>
         <img src={currentSprite} alt="Sonic the Hedgehog" style={{height:'100px', transform: `translateX${Sonic.speed}`}}/>
     </div>
   )
