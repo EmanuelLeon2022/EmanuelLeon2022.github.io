@@ -121,6 +121,9 @@
   }
 }
   @media screen and (max-width: 600px){
+    body{
+      background-image: url(https://art.pixilart.com/b48a43ad690ea4c.gif);
+    }
     .meme{
       background-image: url(https://art.pixilart.com/b48a43ad690ea4c.gif);
       width: 100%;

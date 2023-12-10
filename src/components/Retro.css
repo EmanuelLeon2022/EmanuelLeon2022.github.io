@@ -3,4 +3,27 @@ body{
     /* background-image: url(https://i.redd.it/97wpqwc5p5w91.gif); */
     background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3e3bbc0d-a4a8-4b8e-b45f-8911ccbf8549/de2mzey-2b56b81c-16ba-4964-8a5d-155d6a886e76.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzNlM2JiYzBkLWE0YTgtNGI4ZS1iNDVmLTg5MTFjY2JmODU0OVwvZGUybXpleS0yYjU2YjgxYy0xNmJhLTQ5NjQtOGE1ZC0xNTVkNmE4ODZlNzYuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.1q3fBDf_TsDgvOhS0Hpgp8XixRl6cwU-3Pem1jnjOCA);
     background-repeat: repeat-x;
+    background-color: black;
+}
+.steam{
+    display: flex;
+    justify-content: center;
+}
+.prof{
+    background-color: black;
+    padding: 10px;
+    border: solid white;
+    border-radius: 5px;
+    width: 50%;
+}
+.hyrule{
+    display: flex;
+    justify-content: center;
+}
+.exp{
+    background-color: blue;
+    padding: 10px;
+    border: solid white;
+    border-radius: 5px;
+    width: 50%;
 }
