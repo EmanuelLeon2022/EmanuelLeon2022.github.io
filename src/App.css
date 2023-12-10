@@ -95,6 +95,7 @@
     width: 90%;
     height: 50vh;
     border: solid white 3px;
+    border-radius: 5px;
     justify-content: space-between;
     margin: auto;
     align-items: center;
@@ -109,6 +110,7 @@
     width: 90%;
     height: 210px;
     border: solid red 3px;
+    border-radius: 5px;
     align-items: center;
     background-image: url(https://i.gifer.com/AQnX.gif);
     margin: auto;
@@ -117,6 +119,7 @@
     width: 90%;
     height: 210px;
     border: solid blue 3px;
+    border-radius: 5px;
     background-image: url(https://i.pinimg.com/originals/43/2d/5c/432d5c27dc56cf23c7d2b386bd57378e.gif);
     margin: auto;
     display: flex;

@@ -8,8 +8,14 @@ function Directory() {
       <Link to="/">
       <h5 style={{fontFamily: 'face'}}>Home</h5>
       </Link>
+      <Link to='https://epic-turbo-thunder-snail-racers.onrender.com/' target='_blank'>
+      <h5 style={{fontFamily: 'face'}}>Snail Race</h5>
+      </Link>
       <Link to="/Zelda">
       <h5 style={{fontFamily: 'face'}}>Zelda API</h5>
+      </Link>
+      <Link>
+      <h5 style={{fontFamily: 'face'}}>Cool Stuff</h5>
       </Link>
       <Link to="/Me">
       <h5 style={{fontFamily: 'face'}}>About Me</h5>

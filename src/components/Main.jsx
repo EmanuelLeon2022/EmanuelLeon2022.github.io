@@ -18,7 +18,7 @@ function Main() {
         <p>&nbsp;</p>
       </div>
       <div className='rasp'>
-      <h3><a style={{fontFamily: 'face', color:'black', fontSize:'30px'}}>RetroPie</a></h3>
+      <h3><a style={{fontFamily: 'face', color:'black', fontSize:'30px'}} href='https://www.instructables.com/The-Box-of-Nostalgia-Semi-Portable-Retro-Gaming-Co/' target='_blank'>RetroPie</a></h3>
         <div className='nice'>
           <img className='image1' src="https://content.instructables.com/F2Z/MOTA/KVAYJU67/F2ZMOTAKVAYJU67.jpg?auto=webp&frame=1&width=1024&height=1024&fit=bounds&md=4a751bf5dea52de1daa84950b42fa270" alt="Small Gaming console on box" />
           <img className='image2' style={{rotate: "270deg"}} src="https://content.instructables.com/FG5/FRPQ/KVAYJU68/FG5FRPQKVAYJU68.jpg?auto=webp&frame=1&width=1024&height=1024&fit=bounds&md=c8d758db9beea5dedc197c2daf2a3f98" alt="Sonic 2 running on the Console" />
@@ -28,7 +28,7 @@ function Main() {
       <p>&nbsp;</p>
       <div className='snail'>
         <div className='race'>
-          <h3><a style={{fontFamily: 'face', color: 'black', fontSize: '25px'}}>Snail Race</a></h3>
+          <h3><a style={{fontFamily: 'face', color: 'black', fontSize: '25px'}} href='https://github.com/EmanuelLeon2022/Snail-racers/tree/main' target='_blank'>Snail Race</a></h3>
           <img style={{justifyContent:'center'}} className='image3' src="https://content.instructables.com/FQM/42SF/LPV7K50Z/FQM42SFLPV7K50Z.png?auto=webp&frame=1&width=1024&fit=bounds&md=251d7cbb91a4666bcf11a028f4c9f626" alt="Snail race game in browser" />
         </div>
       </div>
@@ -41,6 +41,7 @@ function Main() {
           <img className='image3' src="https://content.instructables.com/F9Q/OVEE/LPV7KAT8/F9QOVEELPV7KAT8.png?auto=webp&frame=1&crop=3:2&width=400&fit=bounds&md=a2df0e4afee350ba34d713c56f121efa" alt="Website in Development" />
         </div>
       </div>
+      <p>&nbsp;</p>
       <div className='projx'>
         <h2 style={{color: 'white',fontFamily:'face'}}>Project List</h2>
         <a href='https://www.instructables.com/The-Box-of-Nostalgia-Semi-Portable-Retro-Gaming-Co/' target="_blank"><p style={{fontFamily:'face'}} className='dojo'>Retropie</p></a>
@@ -49,7 +50,13 @@ function Main() {
         <a href='https://github.com/EmanuelLeon2022/Snail-racers/tree/main' target="_blank"><p style={{fontFamily:'face'}} className='dojo'
         >Website</p></a>
       </div>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
       <div className='broken'>
+      <h1 style={{fontFamily: 'face', color: 'white'}}>Disclaimer</h1>
       <p>As you can see because some of these words are breaking apart, but don't worry...</p>
       <p>𐌃ዐ𐌍'𐌕 Ꮤዐ𐌐ዪ𐌙 𐌉ፕ'ነ ል ቻ𐌄ል𐌵ፕ𐌵ዪ𐌄, ክꝊፕ ል ፪𐌵ፏ</p>
       <p>句回几'卞 山回尺尺と 卞廾工己 工己 己卞工しし 几回尺冊丹し</p>
