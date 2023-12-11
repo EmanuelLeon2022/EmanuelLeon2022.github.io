@@ -7,6 +7,12 @@ It has been posted to render, but it has a few bugs on site.
 
 ## Technologies
 
+### HTML
+### CSS
+### JavaScript
+### React JS
+### GitHub
+
 #### Browser router works by allowing to create paths on my website that change the URL, within the pages reach. The link property allows me to open website URLs, if I link '/element' it will append it to the current website's URL.
 
 ## Overall
