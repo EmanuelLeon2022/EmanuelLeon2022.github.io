@@ -60,9 +60,6 @@ function Me() {
         </div>
       </div>
       <p>&nbsp;</p>
-      <div className="gnd">
-        <Carol />
-      </div>
       <Footer />
     </div>
   )

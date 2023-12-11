@@ -5,6 +5,7 @@ import Seeds from './models/Seeds'
 import { useState } from 'react'
 import Directory from './Directory'
 import Footer from './Footer'
+import Carol from './Carol'
 
 function Retro() {
 
@@ -154,7 +155,8 @@ if(e.keyCode === 87){
           </div>
         </div>
       </div>
-      {/* <iframe style={{width: '35%',height:'10%'}} src="https://open.spotify.com/embed/track/2SvNtHMj5prj3LnG6FH5Qx?utm_source=generator" width="50%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe> */}
+      <Carol/>
+      <iframe style={{width: '35%',height:'10%'}} src="https://open.spotify.com/embed/track/2SvNtHMj5prj3LnG6FH5Qx?utm_source=generator" width="50%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
       <p>&nbsp;</p>
       <Footer/>
     </div>
