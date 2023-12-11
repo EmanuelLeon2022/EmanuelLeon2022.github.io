@@ -27,3 +27,14 @@ body{
     border-radius: 5px;
     width: 50%;
 }
+.skool{
+    display: flex;
+    justify-content: center;
+}
+.tawt{
+    background-color: blue;
+    padding: 10px;
+    border: solid white;
+    border-radius: 5px;
+    width: 50%;
+}
