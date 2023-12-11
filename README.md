@@ -1,27 +1,27 @@
-#Emanuel Leon-Vargas
+# Emanuel Leon-Vargas
 
 This is a webpage of my design, which includes a list of some of the projects which I have done, an API of my choice, and a resume page that shows visitors some small stuff about me.
 
 It also has some bugs, which I am currently tweaking.
 It has been posted to render, but it has a few bugs on site.
 
-# Technologies
+## Technologies
 
-### Browser router works by allowing to create paths on my website that change the URL, within the pages reach. The link property allows me to open website URLs, if I link '/element' it will append it to the current website's URL.
+#### Browser router works by allowing to create paths on my website that change the URL, within the pages reach. The link property allows me to open website URLs, if I link '/element' it will append it to the current website's URL.
 
-# Overall
+## Overall
 
-### Website links will glitch out when hovered on, it is a feature on the site.
+#### Website links will glitch out when hovered on, it is a feature on the site.
 
-# Snail Race
+## Snail Race
 
-# API
+## API
 ### <a href='https://gadhagod.github.io/Hyrule-Compendium-API/#/' target='_blank'>Zelda Comendium</a>
 
-# Cool Stuff
+## Cool Stuff
 
-### On this page you will find my resume with Link and Sonic trying to push the element's but end up unsuccessful.
+#### On this page you will find my resume with Link and Sonic trying to push the element's but end up unsuccessful.
 
-# About Me
+## About Me
 
-### On this page ou will find a not as cool version of my resume.
+#### On this page ou will find a not as cool version of my resume.
