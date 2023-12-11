@@ -29,7 +29,7 @@ It has been posted to render, but it has a few bugs on site.
 
 #### On this page you will find my resume with Link and Sonic trying to push the element's but end up unsuccessful.
 
-#### To use this page you have to use the "→", "↑" arrow, "W", and "D" key to interact with Sonic and Link.
+#### To use this page you have to use the "→", "↑", "W", and "D" key to interact with Sonic and Link.
 
 #### "→" will make Sonic try to push the Professional Summary, and "↑" will make Sonic breakdance.
 #### "D" will make Link try to push the professional Experience, and "W" will make Link hold the Tri-Force.
