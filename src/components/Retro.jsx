@@ -139,6 +139,7 @@ if(e.keyCode === 87){
       </div>
       <p>&nbsp;</p>
       <div className='skool'>
+        <img style={{height: '100px'}} src="https://i.gifer.com/origin/01/01d0e306b2110cc78690210e92c65eae_w200.gif" alt="Mario Mario" />
         <div className='tawt'>
           <h2 style={{ fontFamily: 'face', color: 'white' }}>Educational Background</h2>
           <p>&nbsp;</p>
