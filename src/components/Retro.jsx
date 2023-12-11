@@ -102,7 +102,9 @@ if(e.keyCode === 87){
 
   return (
     <div className='grade'>
+      <audio src='Checker Death3.mp3'/>
       <Directory />
+      <p>&nbsp;</p>
       <p>&nbsp;</p>
       <p>&nbsp;</p>
       <h1 style={{ fontFamily: 'face' }}>Emanuel's Cooler Resume</h1>

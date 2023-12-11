@@ -14,6 +14,7 @@ It has been posted to render, but it has a few bugs on site.
 #### Website links will glitch out when hovered on, it is a feature on the site.
 
 ## Snail Race
+#### Takes you to a live site version of my Snail race
 
 ## API
 ### <a href='https://gadhagod.github.io/Hyrule-Compendium-API/#/' target='_blank'>Zelda Comendium</a>
@@ -21,6 +22,11 @@ It has been posted to render, but it has a few bugs on site.
 ## Cool Stuff
 
 #### On this page you will find my resume with Link and Sonic trying to push the element's but end up unsuccessful.
+
+#### To use this page you have to use the "→", "↑" arrow, "W", and "D" key to interact with Sonic and Link.
+
+#### "→" will make Sonic try to push the Professional Summary, and "↑" will make Sonic breakdance.
+#### "D" will make Link try to push the professional Experience, and "W" will make Link hold the Tri-Force.
 
 ## About Me
 
