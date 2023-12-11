@@ -30,4 +30,4 @@ It has been posted to render, but it has a few bugs on site.
 
 ## About Me
 
-#### On this page ou will find a not as cool version of my resume.
+#### On this page you will find a not as cool version of my resume.
