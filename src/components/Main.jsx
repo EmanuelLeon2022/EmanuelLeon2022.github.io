@@ -47,7 +47,7 @@ function Main() {
         <a href='https://www.instructables.com/The-Box-of-Nostalgia-Semi-Portable-Retro-Gaming-Co/' target="_blank"><p style={{fontFamily:'face'}} className='dojo'>Retropie</p></a>
         <a href='https://github.com/EmanuelLeon2022/Snail-racers/tree/main' target="_blank"><p style={{fontFamily:'face'}} className='dojo'
         >Snail Racers</p></a>
-        <a href='https://github.com/EmanuelLeon2022/Snail-racers/tree/main' target="_blank"><p style={{fontFamily:'face'}} className='dojo'
+        <a href='https://github.com/EmanuelLeon2022/EmanuelLeon2022.github.io' target="_blank"><p style={{fontFamily:'face'}} className='dojo'
         >Website</p></a>
       </div>
       <p>&nbsp;</p>
