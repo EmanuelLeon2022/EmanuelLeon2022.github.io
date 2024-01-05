@@ -1,70 +1,44 @@
 import '../App.css'
 import Directory from './Directory'
+import Carol from './Carol'
 import Footer from './Footer'
 
 function Main() {
   return (
-    <div className='main'>
-      <div className='direct'>
+    <div className='Main'>
+      <div>
         <Directory />
       </div>
       <h1>&nbsp;</h1>
-      <div className='pain'>
-        <h1>&nbsp;</h1>
-        <h1 style={{ fontSize:'50px'}} className='manny'>Home</h1>
-        <div className='age'>
-        <p style={{ fontSize:'20px'}}>Hello visitors and welcome to my website. As you can see there are still a lot of things missing here. It is still a work in progress, but feel free to browse around. On this page is where you will find most of my most recent projects. I have built a Raspberry Pi computer arcade machine, a snail racing game, and this website which you are currently visiting. Early warning, if you are viewing this website on this version "https://emanuelleon.onrender.com" do not refresh when you enter "Zelda API" or "About Me", it tends to break the page.</p>
-        </div>
-        <p>&nbsp;</p>
+      <h1>&nbsp;</h1>
+      <div className='info'>
+        {/* <p>&nbsp;</p> */}
+        <h1 style={{ fontFamily: 'poppins', color: 'white', paddingLeft: '10px', textAlign:'center' }}>Leones Construction</h1>
+        <p style={{ fontFamily: 'sans-serif', color: 'white', paddingLeft: '10px', paddingBottom: '5px' }}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse blanditiis iusto, odit praesentium asperiores expedita error debitis necessitatibus voluptatem reiciendis, fuga velit doloribus amet? Consectetur sapiente impedit tempore blanditiis rerum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, necessitatibus fuga? Dolores ipsam nesciunt explicabo necessitatibus laboriosam, consequatur dolore itaque vitae tempore ipsa sapiente cupiditate est quasi qui, sint ducimus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor recusandae est error nulla dolores itaque quisquam ut quaerat! Repellendus nulla ipsa corrupti omnis! Debitis voluptatum possimus deserunt nam eligendi dolores.</p>
       </div>
-      <div className='rasp'>
-      <h3><a style={{fontFamily: 'face', color:'black', fontSize:'30px'}} href='https://www.instructables.com/The-Box-of-Nostalgia-Semi-Portable-Retro-Gaming-Co/' target='_blank'>RetroPie</a></h3>
-        <div className='nice'>
-          <img className='image1' src="https://content.instructables.com/F2Z/MOTA/KVAYJU67/F2ZMOTAKVAYJU67.jpg?auto=webp&frame=1&width=1024&height=1024&fit=bounds&md=4a751bf5dea52de1daa84950b42fa270" alt="Small Gaming console on box" />
-          <img className='image2' style={{rotate: "270deg"}} src="https://content.instructables.com/FG5/FRPQ/KVAYJU68/FG5FRPQKVAYJU68.jpg?auto=webp&frame=1&width=1024&height=1024&fit=bounds&md=c8d758db9beea5dedc197c2daf2a3f98" alt="Sonic 2 running on the Console" />
-          <img className='image1' src="https://content.instructables.com/FD6/AJQ1/KUCXRN2G/FD6AJQ1KUCXRN2G.jpg?auto=webp&frame=1&width=800&height=1024&fit=bounds&md=9fc14392388f3df66e52d6cbc433d6d2" alt="Arcade" />
-        </div>
+      <h1>&nbsp;</h1>
+      <div className='profile'>
+        <h1 style={{ fontFamily: 'poppins', color: 'white', paddingRight: '10px', textAlign:'center'}}>Profile</h1>
+        <p style={{ fontFamily: 'sans-serif', color: 'white', paddingRight: '10px', paddingBottom: '5px' }}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse blanditiis iusto, odit praesentium asperiores expedita error debitis necessitatibus voluptatem reiciendis, fuga velit doloribus amet? Consectetur sapiente impedit tempore blanditiis rerum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, necessitatibus fuga? Dolores ipsam nesciunt explicabo necessitatibus laboriosam, consequatur dolore itaque vitae tempore ipsa sapiente cupiditate est quasi qui, sint ducimus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor recusandae est error nulla dolores itaque quisquam ut quaerat! Repellendus nulla ipsa corrupti omnis! Debitis voluptatum possimus deserunt nam eligendi dolores.</p>
       </div>
-      <p>&nbsp;</p>
-      <div className='snail'>
-        <div className='race'>
-          <h3><a style={{fontFamily: 'face', color: 'black', fontSize: '25px'}} href='https://github.com/EmanuelLeon2022/Snail-racers/tree/main' target='_blank'>Snail Race</a></h3>
-          <img style={{justifyContent:'center'}} className='image3' src="https://content.instructables.com/FQM/42SF/LPV7K50Z/FQM42SFLPV7K50Z.png?auto=webp&frame=1&width=1024&fit=bounds&md=251d7cbb91a4666bcf11a028f4c9f626" alt="Snail race game in browser" />
-        </div>
+      <h1>&nbsp;</h1>
+      <div className='contact'>
+        <h1 style={{ fontFamily: 'poppins', color: 'white', paddingLeft: '10px', textAlign:'center'}}>Contact Information</h1>
+        <p style={{ fontFamily: 'sans-serif', color: 'white', paddingLeft: '10px', paddingBottom: '5px' }}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse blanditiis iusto, odit praesentium asperiores expedita error debitis necessitatibus voluptatem reiciendis, fuga velit doloribus amet? Consectetur sapiente impedit tempore blanditiis rerum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, necessitatibus fuga? Dolores ipsam nesciunt explicabo necessitatibus laboriosam, consequatur dolore itaque vitae tempore ipsa sapiente cupiditate est quasi qui, sint ducimus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor recusandae est error nulla dolores itaque quisquam ut quaerat! Repellendus nulla ipsa corrupti omnis! Debitis voluptatum possimus deserunt nam eligendi dolores.</p>
       </div>
-      <p>&nbsp;</p>
-      <div className='web'>
-      <h3 ><a style={{fontFamily: 'face',fontSize:'30px', color:'black'}} href='https://github.com/EmanuelLeon2022/EmanuelLeon2022.github.io' target='_blank'>Website</a></h3>
-        <div className='lego'>
-          <img className='image3' src="https://content.instructables.com/FZD/12Y6/LPV7K7W3/FZD12Y6LPV7K7W3.png?auto=webp&frame=1&width=1024&fit=bounds&md=4d412df54b376277d844104e75041f8e" alt="Website in Development" />
-          <img className='image3' src="https://content.instructables.com/FIK/VBK6/LPV7KAT2/FIKVBK6LPV7KAT2.png?auto=webp&frame=1&crop=3:2&width=400&fit=bounds&md=5bda058e2f14bebfe3e59acaf9881d43" alt="Website in Development" />
-          <img className='image3' src="https://content.instructables.com/F9Q/OVEE/LPV7KAT8/F9QOVEELPV7KAT8.png?auto=webp&frame=1&crop=3:2&width=400&fit=bounds&md=a2df0e4afee350ba34d713c56f121efa" alt="Website in Development" />
-        </div>
+      <h1>&nbsp;</h1>
+      <div className='about'>
+        <h1 style={{ fontFamily: 'poppins', color: 'white', paddingLeft: '10px', textAlign:'center'}}>About</h1>
+        <p style={{ fontFamily: 'sans-serif', color: 'white', paddingLeft: '10px', paddingBottom: '5px' }}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse blanditiis iusto, odit praesentium asperiores expedita error debitis necessitatibus voluptatem reiciendis, fuga velit doloribus amet? Consectetur sapiente impedit tempore blanditiis rerum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, necessitatibus fuga? Dolores ipsam nesciunt explicabo necessitatibus laboriosam, consequatur dolore itaque vitae tempore ipsa sapiente cupiditate est quasi qui, sint ducimus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor recusandae est error nulla dolores itaque quisquam ut quaerat! Repellendus nulla ipsa corrupti omnis! Debitis voluptatum possimus deserunt nam eligendi dolores.</p>
       </div>
-      <p>&nbsp;</p>
-      <div className='projx'>
-        <h2 style={{color: 'white',fontFamily:'face'}}>Project List</h2>
-        <a href='https://www.instructables.com/The-Box-of-Nostalgia-Semi-Portable-Retro-Gaming-Co/' target="_blank"><p style={{fontFamily:'face'}} className='dojo'>Retropie</p></a>
-        <a href='https://github.com/EmanuelLeon2022/Snail-racers/tree/main' target="_blank"><p style={{fontFamily:'face'}} className='dojo'
-        >Snail Racers</p></a>
-        <a href='https://epic-turbo-thunder-snail-racers.onrender.com/' target="_blank"><p style={{fontFamily:'face'}} className='dojo'
-        >Website</p></a>
-      </div>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <div className='broken'>
-      <h1 style={{fontFamily: 'face', color: 'white'}}>Disclaimer</h1>
-      <p>As you can see because some of these words are breaking apart, but don't worry...</p>
-      <p>𐌃ዐ𐌍'𐌕 Ꮤዐ𐌐ዪ𐌙 𐌉ፕ'ነ ል ቻ𐌄ል𐌵ፕ𐌵ዪ𐌄, ክꝊፕ ል ፪𐌵ፏ</p>
-      <p>句回几'卞 山回尺尺と 卞廾工己 工己 己卞工しし 几回尺冊丹し</p>
-      <p>&nbsp;</p>
-      <a href='https://www.youtube.com/watch?v=VS0VlG4uE6U' target="_blank"><p>𝐏⃥⃒̸𝐥⃥⃒̸𝐞⃥⃒̸𝐚⃥⃒̸𝐬⃥⃒̸𝐞⃥⃒̸ 𝐰⃥⃒̸𝐨⃥⃒̸𝐫⃥⃒̸𝐤⃥⃒̸</p></a>
-      <p>I mean, D̷͇̹̦̲̭̙͒̅ͣ̿ỡ̢̡̭̗̘̜̺̹͖̪͈̿̈́̌ͫ͗̾ͩ̓͆͆̀̊ͪ̊́̎̚̕͜͡n̴̢̨̹̜͈̱͚̥̖ͨͭͭ̃ͪ̔ͪ͂ͪ̚͘'̳̆t̵̨͇̙͓͓̝͖ͨ̀ͦ͑ w̷̡̡̺̲͇̜̞͍̣̲̳̼͇̥̻ͣ̽͗̒̽͗̒͑ͪ̄̋̃̑͛ͥ͜͠o̶̞͔̹̪̻̪ͥ̀͛͐̾r̴̗͉̔ͬ̽ͧ͗̿͒ͯͥ̂_̴̡̫̰̭̠̽̃͐́͂ͅr͔ͣ̄̊ͧ͛͌y̶̢̝̻ͩ̽̇͊͊̕͜͜͢ i̢̨̗ͪ͆͡͞t͎̞̳̲̰̖̼͖̭̫̩̫͙̻̦̫̣͈̘͆̿ͪ̿̿ͩ̃̑ͧͭ́̎͊͂̀́͘'̶̡̢̪̦̩̙͓̠̲̜͉͔̣̮̀̽ͭ̅̀͜͜͠s̶̴̙̩͚̯̼͕͔̩ͬ͛͑ͭͪ̔͜͠ a̶̸̛̛̯̫̭ͪͭ̃ͬ F͎̆̉͋ͨ̎͝ȩ̵̸̡̟̤͙̞̜̠̰̦̬͍̻̔̇̊ͬͤͯ̏̇́̍͛ͩ͛͌̚ą̵̸̫̙̘͕̝̫̦͔̜ͥ͋̈̃͟u̵̷̞̤̲͇̼̭̖̭̹ͬ͛ͩ̒̿̉ͦͯ͟tu̧̨̧͓͇͍̖̗͈̥̬̜̗̺ͧ̅̑̒̀̈́ͤͦ͗ͩ̿̀͆̕͘͟͡r̴̝͚̜̤̬̳͗̓͋̀̃ͧ̓̋̏̏ͨ́͂ͦͥͮ̍e̷̶̸̛̱͎̟̞̹͖̓̑ͣͪͥͩͩͥ̌ͤ̀ͤ̋͟,̭̣ n̵̨̧̬͎͔͙͙ͭ̅ͨ͂ͬͪ͂̀̾̑ͤ̃̂̽̚̚͢͡ͅo̧̭͎ͯ̓ͬ͝_̷̲̳̼̤̺͓͈̄ͬ͒̒̋̓̐͢͡t̴̵̶̸̶̨̲̦͓̩͔̩̪̝̫͎̜̭ͬ͆ͦ̒͌̌́ͭͤ̈̉͘͢͢ͅ ä̢̧̪̤̪͚̬̰̬͓͒̇ͪ̀̆̔̑͛̄ͭ̓̃̓͜͠͝ͅ_͚͓̣̼͍͙̺̟̥̟̔ͬ͆͠ B̶̴̧̜̣̪͈̱̫͇̦̲͚̪͈̳̫̬͈̓́̀͒ͧ͂̅͋̑̀̀͑̀̐͘͜͢͟͠u̷̶̢̨̬͙͙̫̠̜̙̯ͨ́ͩͯ͗ͩ̎ͬ̓̉͐ͦ͝g̸̶̨̡̝͚͉ͭ̇ͥ̆͌ͥ̈́͊̑͟͜͢</p>
-      <p>ዐⶴ ቻዐዪፏቹፕ ጎፕ</p>
-      <p>&nbsp;</p>
+      <h1>&nbsp;</h1>
+      <h1>&nbsp;</h1>
+      <h1>&nbsp;</h1>
+      <h1>&nbsp;</h1>
+      <h1>&nbsp;</h1>
+      <Carol/>
+      <div>
+
       </div>
       <div className='feeter'>
         <Footer />

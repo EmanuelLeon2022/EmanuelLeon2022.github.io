@@ -1,6 +1,6 @@
 import { StrictMode } from "react";
 import ReactDOM from "react-dom";
-import "./style.css";
+import "./App.css";
 import App from "./App";
 //IMPORT BrowserRouter and rename it to Router
 import { BrowserRouter as Router } from "react-router-dom";

@@ -13,15 +13,6 @@ function Carol() {
 
   const [currentPic, setCurrentPic] = useState(cardImages[count]);
 
-  // const reverseCount = () => {
-  //   setCount(count - 1);
-  //   setCurrentPic(cardImages[count]);
-  //   console.log(count)
-  //   if(count<=0){
-  //       setCount(count == 5);
-  //       setCurrentPic(cardImages[count])
-  //   }
-  // };
   const reverseCount = () => {
     setCount(count - 1);
     setCurrentPic(cardImages[count]);
@@ -41,16 +32,17 @@ function Carol() {
   };
   
   return (
-    <div className="App">
+    <div className="jobs">
       <Card currentCount={count} currentPic={cardImages[count]} />
-
-      <div className="buton">
-        <h1 style={{fontFamily:'face',color: 'white'}}>Buttons</h1>
-        <div className='lb'>
-        <Button togglePic={reverseCount} icon={symbols.left}/>
-        </div>
-        <div className='rb'>
-        <Button togglePic={changeCount} icon={symbols.right} />
+      <div className="buttons">
+        <div className="buton">
+          <h1 style={{ fontFamily: 'poppins', color: 'white' }}>Buttons</h1>
+          <div className='lb'>
+            <Button togglePic={reverseCount} icon={symbols.left} />
+          </div>
+          <div className='rb'>
+            <Button togglePic={changeCount} icon={symbols.right} />
+          </div>
         </div>
       </div>
     </div>

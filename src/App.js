@@ -1,9 +1,7 @@
-import './style.css';
+import Profile from './components/Profile'
 import Main from './components/Main';
-import Zelda from './components/Zelda';
-import Me from './components/Me';
-import Retro from './components/Retro';
-import Sonic from './components/buttons/Sonic';
+import Contact from './components/Contact';
+import About from './components/About'
 import { Routes, Route } from 'react-router-dom';
 
 
@@ -13,10 +11,9 @@ function App() {
       <header className="head">
         <Routes>
           <Route path='/' element={<Main/>}/>
-          <Route path='/Zelda' element={<Zelda/>}/>
-          <Route path='/Me' element={<Me/>}/>
-          <Route path='/Retro' element={<Retro/>}/>
-          <Route path='/Sonic' element={<Sonic/>}/>
+          <Route path='/profile' element={<Profile/>}/>
+          <Route path='/contact+us' element={<Contact/>}/>
+          <Route path='/about+us' element={<About/>}/>
         </Routes>
       </header>
     </div>

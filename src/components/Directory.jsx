@@ -6,19 +6,19 @@ function Directory() {
   return (
     <div className='dir'>
       <Link to="/">
-      <h5 style={{fontFamily: 'face'}}>Home</h5>
+      <h3>Home</h3>
       </Link>
-      <Link to='https://epic-turbo-thunder-snail-racers.onrender.com/' target='_blank'>
-      <h5 style={{fontFamily: 'face'}}>Snail Race</h5>
+      <Link to='/profile'>
+      <h3>Profile</h3>
       </Link>
-      <Link to="/Zelda">
-      <h5 style={{fontFamily: 'face'}}>Zelda API</h5>
+      <Link to="/">
+        <img src="https://clipart-library.com/img/1094286.png" alt="Leones Construction" height="60px" /*style={{backgroundColor:'gray', borderRadius:'5px'}}*/ />
       </Link>
-      <Link to='/Retro'>
-      <h5 style={{fontFamily: 'face'}}>Cool Stuff</h5>
+      <Link to='/contact+us'>
+      <h3>Contact Us</h3>
       </Link>
-      <Link to="/Me">
-      <h5 style={{fontFamily: 'face'}}>About Me</h5>
+      <Link to="/about+us">
+      <h3>About Us</h3>
       </Link>
     </div>
   )
